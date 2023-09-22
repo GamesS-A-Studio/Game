@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Inimigo
+  - Parede
+  - Plataforma
+  - Magia1
+  - MachTP
+  - CheckPoint
+  - arma
+  - atravessa
+  - spawn
+  - PoisonPlayer
+  - FxTemporaire
+  - armadilhas
+  - AtackPlayer
+  - armaEnemy
+  - AtackEnemie
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - parede
+  - Water
+  - UI
+  - PlayerColideSemEfeito
+  - Player
+  - Ground
+  - Inimigo
+  - AtackPlayer
+  - AtackInimigo
+  - "s\xF3ColideCh\xE3o"
+  - Sulgador
+  - Plataforma
+  - escudos
+  - Arma
+  - Luzes
+  - 
+  - armadilhas
+  - 
+  - atravessa
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - postprocessing
+  m_SortingLayers:
+  - name: background3
+    uniqueID: 800595019
+    locked: 0
+  - name: background2
+    uniqueID: 126225997
+    locked: 0
+  - name: bakgroundfog
+    uniqueID: 2897208107
+    locked: 0
+  - name: background1
+    uniqueID: 1923813451
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: main
+    uniqueID: 1408066839
+    locked: 0
+  - name: Front1
+    uniqueID: 133600009
+    locked: 0
+  - name: Frontfog
+    uniqueID: 3648173993
+    locked: 0
+  - name: Front2
+    uniqueID: 27452279
+    locked: 0

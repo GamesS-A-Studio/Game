@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 72a8fb4989c5d634d9eb08f7f41ccda3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7803366396420355314
+    second: slimeheroi_0
+  - first:
+      213: 8723146315893171188
+    second: slimeheroi_1
+  - first:
+      213: -4875796160837776417
+    second: slimeheroi_2
+  - first:
+      213: -8520929899409127511
+    second: slimeheroi_3
+  - first:
+      213: -812827107225841774
+    second: slimeheroi_4
+  - first:
+      213: -7255309888899508888
+    second: slimeheroi_5
+  - first:
+      213: 8201230465003243416
+    second: slimeheroi_6
+  - first:
+      213: -5567533334961151019
+    second: slimeheroi_7
+  - first:
+      213: 5902768349486430444
+    second: slimeheroi_8
+  - first:
+      213: -7005337421189614391
+    second: slimeheroi_9
+  - first:
+      213: -575161984977273196
+    second: slimeheroi_10
+  - first:
+      213: 5491282128297239100
+    second: slimeheroi_11
+  - first:
+      213: 250939659972929437
+    second: slimeheroi_12
+  - first:
+      213: 3042464841272056798
+    second: slimeheroi_13
+  - first:
+      213: 7149521966498353263
+    second: slimeheroi_14
+  - first:
+      213: -8164333363680504769
+    second: slimeheroi_15
+  - first:
+      213: -6198195007321921724
+    second: slimeheroi_16
+  - first:
+      213: -2164714674066269367
+    second: slimeheroi_17
+  - first:
+      213: -1926771862897098173
+    second: slimeheroi_18
+  - first:
+      213: -550761091606874907
+    second: slimeheroi_19
+  - first:
+      213: -5274994970065780560
+    second: slimeheroi_20
+  - first:
+      213: -8223352460727987787
+    second: slimeheroi_21
+  - first:
+      213: 4624960278862288023
+    second: slimeheroi_22
+  - first:
+      213: 3035679641408030229
+    second: slimeheroi_23
+  - first:
+      213: 6366882880998525186
+    second: slimeheroi_24
+  - first:
+      213: -6495815900889685910
+    second: slimeheroi_25
+  - first:
+      213: -4109969908770229687
+    second: slimeheroi_26
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeheroi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4fadeb4602b4c60800000000000000
+      internalID: 7803366396420355314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 84
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3e19a6b57de0970800000000000000
+      internalID: 8723146315893171188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 85
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb0d0c8931b55cb0800000000000000
+      internalID: -4875796160837776417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c6bdf6639fb980800000000000000
+      internalID: -8520929899409127511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 86
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fcef17d0248b4f0800000000000000
+      internalID: -812827107225841774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 86
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86514c8a816ff4b90800000000000000
+      internalID: -7255309888899508888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 99
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5000007, y: -0.023952302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89741abe7af90d170800000000000000
+      internalID: 8201230465003243416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 92
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3ae7e0ee52cb2b0800000000000000
+      internalID: -5567533334961151019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 88
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8be862a88dae150800000000000000
+      internalID: 5902768349486430444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4fd363bba08ce90800000000000000
+      internalID: -7005337421189614391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 48
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49efe15d83d9408f0800000000000000
+      internalID: -575161984977273196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ab9a6004f43c40800000000000000
+      internalID: 5491282128297239100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 49
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d976ebc8a448b7300800000000000000
+      internalID: 250939659972929437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 50
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbd2a947a1093a20800000000000000
+      internalID: 3042464841272056798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 50
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f609cf64954383360800000000000000
+      internalID: 7149521966498353263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 63
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.48835754, y: -0.012308938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3414fdef0672be80800000000000000
+      internalID: -8164333363680504769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_16
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 56
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4472af3fa769bf9a0800000000000000
+      internalID: -6198195007321921724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 52
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b543c197365f1e0800000000000000
+      internalID: -2164714674066269367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420dccf23bb245e0800000000000000
+      internalID: -1926771862897098173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e47aaa84bd4b58f0800000000000000
+      internalID: -550761091606874907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 16
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c149d5047bc6b0800000000000000
+      internalID: -5274994970065780560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 16
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b159739188c0ed80800000000000000
+      internalID: -8223352460727987787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 17
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794d0e99ed82f2040800000000000000
+      internalID: 4624960278862288023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 17
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c206dc86e02a20800000000000000
+      internalID: 3035679641408030229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 30
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5000007, y: -0.012309029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209ce604f36bb5850800000000000000
+      internalID: 6366882880998525186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 23
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60e22dbad93ad5a0800000000000000
+      internalID: -6495815900889685910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeheroi_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 19
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b43eb42476f6c0800000000000000
+      internalID: -4109969908770229687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

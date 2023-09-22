@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 7cb52d1a9d1cd9a4bbbb90cda7fd5d91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 230724270937445833
+    second: heroi-corpo_0
+  - first:
+      213: 2724817234590212855
+    second: heroi-corpo_1
+  - first:
+      213: -1773546679795518344
+    second: heroi-corpo_2
+  - first:
+      213: -7104359550508110599
+    second: heroi-corpo_3
+  - first:
+      213: 8185120429282174371
+    second: heroi-corpo_4
+  - first:
+      213: 7676664851265314731
+    second: heroi-corpo_5
+  - first:
+      213: 5586263256632979240
+    second: heroi-corpo_6
+  - first:
+      213: 5221214584789093953
+    second: heroi-corpo_7
+  - first:
+      213: -4756428414013501396
+    second: heroi-corpo_8
+  - first:
+      213: 5254955318485384123
+    second: heroi-corpo_9
+  - first:
+      213: 7727657612614373547
+    second: heroi-corpo_10
+  - first:
+      213: 2827848939622787877
+    second: heroi-corpo_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heroi-corpo_0
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2787
+        width: 136
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c599428082b33300800000000000000
+      internalID: 230724270937445833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2182
+        width: 232
+        height: 360
+      alignment: 9
+      pivot: {x: 0.54327655, y: 0.22110663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2ac9196de70d520800000000000000
+      internalID: 2724817234590212855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2204
+        width: 250
+        height: 357
+      alignment: 9
+      pivot: {x: 0.58032155, y: 0.19063894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f63ef0b81367e0800000000000000
+      internalID: -1773546679795518344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_3
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2164
+        width: 281
+        height: 387
+      alignment: 9
+      pivot: {x: 0.6071908, y: 0.2016488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc6f4b11ae386d90800000000000000
+      internalID: -7104359550508110599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_4
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2169
+        width: 249
+        height: 389
+      alignment: 9
+      pivot: {x: 0.6612877, y: 0.21608767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5282fe9a3679170800000000000000
+      internalID: 8185120429282174371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_5
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 2221
+        width: 269
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5373236, y: 0.22032978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf556f620ef88a60800000000000000
+      internalID: 7676664851265314731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 231
+        height: 369
+      alignment: 9
+      pivot: {x: 0.6086598, y: 0.22790858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fec69a5d4668d40800000000000000
+      internalID: 5586263256632979240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_7
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1312
+        width: 298
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5505377, y: 0.2985248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e417e600b757840800000000000000
+      internalID: 5221214584789093953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_8
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1253
+        width: 351
+        height: 346
+      alignment: 9
+      pivot: {x: 0.74313796, y: 0.28236628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20962fde85cdfdb0800000000000000
+      internalID: -4756428414013501396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_9
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1220
+        width: 350
+        height: 347
+      alignment: 9
+      pivot: {x: 0.7438323, y: 0.23959236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbfedc250a5de840800000000000000
+      internalID: 5254955318485384123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_10
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 515
+        width: 392
+        height: 352
+      alignment: 9
+      pivot: {x: 0.57683766, y: 0.1050335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba019b1e7a72e3b60800000000000000
+      internalID: 7727657612614373547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi-corpo_11
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 568
+        width: 308
+        height: 389
+      alignment: 9
+      pivot: {x: 0.71188635, y: 0.21608815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b6ea4c0a98e3720800000000000000
+      internalID: 2827848939622787877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

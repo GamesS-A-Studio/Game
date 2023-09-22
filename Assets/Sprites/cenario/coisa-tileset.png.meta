@@ -1,0 +1,2281 @@
+fileFormatVersion: 2
+guid: b03a5433c543d6e4995e0b42320451dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5513555771936274863
+    second: coisa-tileset_1
+  - first:
+      213: 6265056361716277287
+    second: coisa-tileset_2
+  - first:
+      213: 2977910747457650233
+    second: coisa-tileset_3
+  - first:
+      213: 2411208946500372304
+    second: coisa-tileset_12
+  - first:
+      213: -3925981101742047447
+    second: coisa-tileset_13
+  - first:
+      213: -1813086745812793410
+    second: coisa-tileset_14
+  - first:
+      213: -5969347123739988813
+    second: coisa-tileset_16
+  - first:
+      213: -5766763834437598899
+    second: coisa-tileset_17
+  - first:
+      213: 2001223311145973667
+    second: coisa-tileset_18
+  - first:
+      213: -4728080090821223169
+    second: coisa-tileset_19
+  - first:
+      213: -267636530043045925
+    second: coisa-tileset_22
+  - first:
+      213: -1079078245371027851
+    second: coisa-tileset_23
+  - first:
+      213: -167416763767304433
+    second: coisa-tileset_24
+  - first:
+      213: 1752634972851547057
+    second: coisa-tileset_26
+  - first:
+      213: 3258739377189290876
+    second: coisa-tileset_27
+  - first:
+      213: 3997212681203369628
+    second: coisa-tileset_28
+  - first:
+      213: 6221209710542628165
+    second: coisa-tileset_29
+  - first:
+      213: 8181131264160931162
+    second: coisa-tileset_32
+  - first:
+      213: -8087989991829370298
+    second: coisa-tileset_33
+  - first:
+      213: 708159494936127765
+    second: coisa-tileset_34
+  - first:
+      213: -4556946431849629330
+    second: coisa-tileset_35
+  - first:
+      213: 4296155297861662179
+    second: coisa-tileset_36
+  - first:
+      213: 6210381610549489241
+    second: coisa-tileset_37
+  - first:
+      213: 348201897224255409
+    second: coisa-tileset_39
+  - first:
+      213: 6592950800955291165
+    second: coisa-tileset_40
+  - first:
+      213: 2583273375714596067
+    second: coisa-tileset_41
+  - first:
+      213: 1428261814502109943
+    second: coisa-tileset_44
+  - first:
+      213: 3707818156413660656
+    second: coisa-tileset_45
+  - first:
+      213: 5511791584102261138
+    second: coisa-tileset_46
+  - first:
+      213: 9140356536602080117
+    second: coisa-tileset_47
+  - first:
+      213: 110675404027876582
+    second: coisa-tileset_48
+  - first:
+      213: -8662395960131574122
+    second: coisa-tileset_49
+  - first:
+      213: -611736214474057943
+    second: coisa-tileset_52
+  - first:
+      213: 4701964172811127211
+    second: coisa-tileset_54
+  - first:
+      213: 8646494153950855462
+    second: coisa-tileset_60
+  - first:
+      213: 8595033958443783956
+    second: coisa-tileset_61
+  - first:
+      213: 5198416353939934380
+    second: coisa-tileset_62
+  - first:
+      213: 1226634751945871565
+    second: coisa-tileset_64
+  - first:
+      213: 1169317125987316708
+    second: coisa-tileset_65
+  - first:
+      213: 5198319336897773533
+    second: coisa-tileset_66
+  - first:
+      213: -8679549912964175788
+    second: coisa-tileset_67
+  - first:
+      213: -6732488692404870494
+    second: coisa-tileset_68
+  - first:
+      213: -6283281484733787404
+    second: coisa-tileset_69
+  - first:
+      213: -696743231166296979
+    second: coisa-tileset_71
+  - first:
+      213: 9070882874056703936
+    second: coisa-tileset_72
+  - first:
+      213: 7187968470062184593
+    second: coisa-tileset_73
+  - first:
+      213: -6406699218141272251
+    second: coisa-tileset_74
+  - first:
+      213: 199633154095561173
+    second: coisa-tileset_79
+  - first:
+      213: 573281949125408116
+    second: coisa-tileset_80
+  - first:
+      213: 5059904179831897745
+    second: coisa-tileset_81
+  - first:
+      213: 5983503180594500235
+    second: coisa-tileset_83
+  - first:
+      213: 6214886605399331991
+    second: coisa-tileset_87
+  - first:
+      213: 3076838241747419144
+    second: coisa-tileset_88
+  - first:
+      213: -3982261760681841922
+    second: coisa-tileset_89
+  - first:
+      213: 7996641508312185391
+    second: coisa-tileset_91
+  - first:
+      213: -6558940620245552263
+    second: coisa-tileset_92
+  - first:
+      213: -625322353953891397
+    second: coisa-tileset_93
+  - first:
+      213: 772750701170106612
+    second: coisa-tileset_94
+  - first:
+      213: -4119083203556631650
+    second: coisa-tileset_96
+  - first:
+      213: 2476955515667277564
+    second: coisa-tileset_97
+  - first:
+      213: -5438128565331441853
+    second: coisa-tileset_98
+  - first:
+      213: 7228461939833883090
+    second: coisa-tileset_100
+  - first:
+      213: -565152302637431326
+    second: coisa-tileset_101
+  - first:
+      213: -8567132874742308015
+    second: coisa-tileset_102
+  - first:
+      213: 5082155224287857393
+    second: coisa-tileset_103
+  - first:
+      213: -2402354762300651114
+    second: coisa-tileset_107
+  - first:
+      213: -3618077102594312297
+    second: coisa-tileset_112
+  - first:
+      213: -367724394442707827
+    second: coisa-tileset_120
+  - first:
+      213: 7940511456074595824
+    second: coisa-tileset_121
+  - first:
+      213: 2595525234708000761
+    second: coisa-tileset_124
+  - first:
+      213: -7330521631755540340
+    second: coisa-tileset_126
+  - first:
+      213: -7882927937016150258
+    second: coisa-tileset_129
+  - first:
+      213: -7659838313881489256
+    second: coisa-tileset_130
+  - first:
+      213: -6563464829749915815
+    second: coisa-tileset_131
+  - first:
+      213: 882070150078811602
+    second: coisa-tileset_132
+  - first:
+      213: 6393390981852731784
+    second: coisa-tileset_133
+  - first:
+      213: 1725555992324339407
+    second: coisa-tileset_135
+  - first:
+      213: 4934920688972537342
+    second: coisa-tileset_137
+  - first:
+      213: 6531715744025914941
+    second: coisa-tileset_138
+  - first:
+      213: -5963948705324233630
+    second: coisa-tileset_139
+  - first:
+      213: -4972927340811384287
+    second: coisa-tileset_140
+  - first:
+      213: 3995588032975702623
+    second: coisa-tileset_141
+  - first:
+      213: -9048364357813856976
+    second: coisa-tileset_142
+  - first:
+      213: -395044598194562052
+    second: coisa-tileset_0
+  - first:
+      213: 7438288836696633704
+    second: coisa-tileset_4
+  - first:
+      213: -4254262555616172826
+    second: coisa-tileset_5
+  - first:
+      213: -5823262133207248947
+    second: coisa-tileset_6
+  - first:
+      213: 2342972173956835737
+    second: coisa-tileset_7
+  - first:
+      213: -4157151665928724165
+    second: coisa-tileset_8
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coisa-tileset_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 434
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1560f6ccc3aeb73b0800000000000000
+      internalID: -5513555771936274863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 434
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72066e93193f1f650800000000000000
+      internalID: 6265056361716277287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 434
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ef7031c0aa35920800000000000000
+      internalID: 2977910747457650233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 401
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057066ff2c5567120800000000000000
+      internalID: 2411208946500372304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 401
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb4cb1dfc1489c0800000000000000
+      internalID: -3925981101742047447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 401
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb70cd8f53f96d6e0800000000000000
+      internalID: -1813086745812793410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 414
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc6a7cfa6e982da0800000000000000
+      internalID: -5969347123739988813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 408
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4107c0a8d658ffa0800000000000000
+      internalID: -5766763834437598899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 408
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a73611aff5c5cb10800000000000000
+      internalID: 2001223311145973667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_19
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 408
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc1105353c726eb0800000000000000
+      internalID: -4728080090821223169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_22
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 368
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7bdd17ef9294cf0800000000000000
+      internalID: -267636530043045925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 368
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57edec39d085601f0800000000000000
+      internalID: -1079078245371027851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f443227573dadf0800000000000000
+      internalID: -167416763767304433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 381
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb2eb1d83c925810800000000000000
+      internalID: 1752634972851547057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_27
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 375
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7302f0b23e593d20800000000000000
+      internalID: 3258739377189290876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 375
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9640d261c3f87730800000000000000
+      internalID: 3997212681203369628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_29
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 375
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545aa16354d265650800000000000000
+      internalID: 6221209710542628165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_32
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 335
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d972d0a87398170800000000000000
+      internalID: 8181131264160931162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_33
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 335
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a881654ffa1cf80800000000000000
+      internalID: -8087989991829370298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 335
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519ecf30f43e3d900800000000000000
+      internalID: 708159494936127765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_35
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 335
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e697e1d2d5972c0c0800000000000000
+      internalID: -4556946431849629330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 335
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5f4fc3b720f9b30800000000000000
+      internalID: 4296155297861662179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_37
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 335
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eab68bb25bf2650800000000000000
+      internalID: 6210381610549489241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_39
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 342
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b73b2ad7cf05d400800000000000000
+      internalID: 348201897224255409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 342
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16319092ddde7b50800000000000000
+      internalID: 6592950800955291165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_41
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 342
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4513dc271a9d320800000000000000
+      internalID: 2583273375714596067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 285
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f237a39d8432d310800000000000000
+      internalID: 1428261814502109943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 285
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda7c8e7f0d47330800000000000000
+      internalID: 3707818156413660656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 285
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29127663e31dd7c40800000000000000
+      internalID: 5511791584102261138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_47
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 302
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5733694a7d119de70800000000000000
+      internalID: 9140356536602080117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_48
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 302
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4547e81b2398100800000000000000
+      internalID: 110675404027876582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_49
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 302
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696249405ccf8c780800000000000000
+      internalID: -8662395960131574122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_52
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9271800772da287f0800000000000000
+      internalID: -611736214474057943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 255
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9450bc08bb04140800000000000000
+      internalID: 4701964172811127211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_60
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 260
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6218bb63f948ef770800000000000000
+      internalID: 8646494153950855462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_61
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 260
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4171675c8d1b74770800000000000000
+      internalID: 8595033958443783956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_62
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 260
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caccb2ba12c742840800000000000000
+      internalID: 5198416353939934380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_64
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 222
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc012e2dec1e50110800000000000000
+      internalID: 1226634751945871565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 222
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e331441bbf3a3010800000000000000
+      internalID: 1169317125987316708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 222
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddff5d025e3242840800000000000000
+      internalID: 5198319336897773533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_67
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 260
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4586f73275b0c8780800000000000000
+      internalID: -8679549912964175788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_68
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 256
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2afda54356192a0800000000000000
+      internalID: -6732488692404870494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 256
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f257a6a7cc4dc8a0800000000000000
+      internalID: -6283281484733787404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_71
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ccca609bba456f0800000000000000
+      internalID: -696743231166296979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_72
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 227
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cff2531aef32ed70800000000000000
+      internalID: 9070882874056703936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_73
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 227
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198b3c27d3bc0c360800000000000000
+      internalID: 7187968470062184593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_74
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 227
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547aae75105d617a0800000000000000
+      internalID: -6406699218141272251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_79
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 227
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9b143cb4d35c200800000000000000
+      internalID: 199633154095561173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_80
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 223
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47573c535e4b4f700800000000000000
+      internalID: 573281949125408116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_81
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 223
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ef4640b04683640800000000000000
+      internalID: 5059904179831897745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_83
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 227
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8251c7d07ca90350800000000000000
+      internalID: 5983503180594500235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79419229076bf3650800000000000000
+      internalID: 6214886605399331991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_88
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 170
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80041be341023ba20800000000000000
+      internalID: 3076838241747419144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_89
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 170
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaefef070a2cb8c0800000000000000
+      internalID: -3982261760681841922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_91
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 170
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a77137517c9fe60800000000000000
+      internalID: 7996641508312185391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_92
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 170
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9733263b146f9f4a0800000000000000
+      internalID: -6558940620245552263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_93
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 170
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb9776d1a86257f0800000000000000
+      internalID: -625322353953891397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_94
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 170
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0ad232bac59ba00800000000000000
+      internalID: 772750701170106612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b9ab376a316d6c0800000000000000
+      internalID: -4119083203556631650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_97
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6eac30be9ef5220800000000000000
+      internalID: 2476955515667277564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_98
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347c38cd1e2e784b0800000000000000
+      internalID: -5438128565331441853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_100
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9ca3416d7a05460800000000000000
+      internalID: 7228461939833883090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_101
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e54d4d99fc2828f0800000000000000
+      internalID: -565152302637431326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_102
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153e9618a0e6b1980800000000000000
+      internalID: -8567132874742308015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_103
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fac2150041778640800000000000000
+      internalID: 5082155224287857393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_107
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 142
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6990a98621f19aed0800000000000000
+      internalID: -2402354762300651114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_112
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 97
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79734e96b020acdc0800000000000000
+      internalID: -3618077102594312297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_120
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 73
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c2ffd8c9495eaf0800000000000000
+      internalID: -367724394442707827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_121
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 90
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdfe32491d523e60800000000000000
+      internalID: 7940511456074595824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_124
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 94
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff25540378250420800000000000000
+      internalID: 2595525234708000761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_126
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 75
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88e4e82a61c44a90800000000000000
+      internalID: -7330521631755540340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_129
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 125
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07462c8ec63a9290800000000000000
+      internalID: -7882927937016150258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_130
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 132
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890ba2813a9c2b590800000000000000
+      internalID: -7659838313881489256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8cf61383e9e4a0800000000000000
+      internalID: -6563464829749915815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_132
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 67
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4c6ac02ebd3c00800000000000000
+      internalID: 882070150078811602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_133
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 59
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889948f6933e9b850800000000000000
+      internalID: 6393390981852731784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_135
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 59
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f98a580862f710800000000000000
+      internalID: 1725555992324339407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_137
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 5
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd1fe4683c5c7440800000000000000
+      internalID: 4934920688972537342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_138
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 5
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ead78dcd055aa50800000000000000
+      internalID: 6531715744025914941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_139
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 5
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c8f78304ccb3da0800000000000000
+      internalID: -5963948705324233630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_140
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 5
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a0c156eec9cfab0800000000000000
+      internalID: -4972927340811384287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_141
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 5
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a815e752e237730800000000000000
+      internalID: 3995588032975702623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_142
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 5
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035133e8e80cd6280800000000000000
+      internalID: -9048364357813856976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_0
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 489
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb1d2ee705848af0800000000000000
+      internalID: -395044598194562052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 489
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8617e08894c1a3760800000000000000
+      internalID: 7438288836696633704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 489
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a047eeb2d5f4c0800000000000000
+      internalID: -4254262555616172826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 456
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfc23c51fd9f2fa0800000000000000
+      internalID: -5823262133207248947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 456
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999625357c8e38020800000000000000
+      internalID: 2342972173956835737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coisa-tileset_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 456
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3125ead594de46c0800000000000000
+      internalID: -4157151665928724165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

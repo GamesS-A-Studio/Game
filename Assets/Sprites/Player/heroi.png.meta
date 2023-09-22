@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 7effe8195ee446248aa941ae8949c6f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -622250660557696393
+    second: heroi_0
+  - first:
+      213: 154268017182236665
+    second: heroi_1
+  - first:
+      213: 2244614845183080949
+    second: heroi_2
+  - first:
+      213: -8809225160005194985
+    second: heroi_3
+  - first:
+      213: -413538210073718746
+    second: heroi_4
+  - first:
+      213: -4774733049167500
+    second: heroi_5
+  - first:
+      213: 1178147743381920645
+    second: heroi_6
+  - first:
+      213: 1812002828938153190
+    second: heroi_7
+  - first:
+      213: -1124729546140874191
+    second: heroi_8
+  - first:
+      213: 912112358041266268
+    second: heroi_9
+  - first:
+      213: -5906486779555806286
+    second: heroi_10
+  - first:
+      213: -1132504540112137334
+    second: heroi_11
+  - first:
+      213: -3893202153472131487
+    second: heroi_12
+  - first:
+      213: -6897980652778664732
+    second: heroi_17
+  - first:
+      213: 7727043772479110299
+    second: heroi_18
+  - first:
+      213: -8191379087512481236
+    second: heroi_22
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heroi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1119
+        width: 192
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772d43032525d57f0800000000000000
+      internalID: -622250660557696393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1121
+        width: 219
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd95cb1f1142200800000000000000
+      internalID: 154268017182236665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1129
+        width: 209
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b4b82f49762f10800000000000000
+      internalID: 2244614845183080949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_3
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 931
+        width: 188
+        height: 224
+      alignment: 9
+      pivot: {x: 0.50000066, y: 0.14121655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71be477e3685fb580800000000000000
+      internalID: -8809225160005194985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 820
+        width: 231
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620518f5031d24af0800000000000000
+      internalID: -413538210073718746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_5
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 829
+        width: 201
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47105b4d7690feff0800000000000000
+      internalID: -4774733049167500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 822
+        width: 179
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5121351, y: -0.027684098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b1539612f995010800000000000000
+      internalID: 1178147743381920645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_7
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 838
+        width: 226
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec8cd6f8f6852910800000000000000
+      internalID: 1812002828938153190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_8
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 886
+        width: 183
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a03e5df682460f0800000000000000
+      internalID: -1124729546140874191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_9
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 850
+        width: 271
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.7306659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c582b486b5978ac00800000000000000
+      internalID: 912112358041266268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 438
+        width: 342
+        height: 156
+      alignment: 9
+      pivot: {x: 0.8366116, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b309026191f70ea0800000000000000
+      internalID: -5906486779555806286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 431
+        width: 543
+        height: 163
+      alignment: 9
+      pivot: {x: 0.8960177, y: 0.5266514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83591cfe198840f0800000000000000
+      internalID: -1132504540112137334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_12
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 482
+        width: 661
+        height: 159
+      alignment: 9
+      pivot: {x: 0.9140459, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ef18bb44198f9c0800000000000000
+      internalID: -3893202153472131487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 30
+        width: 355
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec4c93b4237540a0800000000000000
+      internalID: -6897980652778664732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_18
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 56
+        width: 389
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf2861f59fb3b60800000000000000
+      internalID: 7727043772479110299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroi_22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 75
+        width: 360
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c225144ae10625e80800000000000000
+      internalID: -8191379087512481236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

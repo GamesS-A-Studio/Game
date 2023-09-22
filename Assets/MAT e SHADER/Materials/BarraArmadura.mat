@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BarraArmadura
+  m_Shader: {fileID: -6465566751694194690, guid: c347689869a4648489b044d08ce79ea6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_26632852c2f6414294edc1b2388b9a61:
+        m_Texture: {fileID: 2800000, guid: a09e151e815cf884d8e08c8312f665a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 481d07ed177aa61459f92dc2339f37d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_12a027cc042c4437a3b92fa3543fa0f9: 1
+    - Vector1_782875e8be41471884e61f5f3c312eb1: 0.3
+    - Vector1_87ba15a20d304f5b9e960f2eb764383a: 50
+    - Vector1_965ed36127bb49aaa6229a1268ca0e0b: 0.3
+    m_Colors:
+    - Color_82ab05e861344be0bacfeca9dcb686bc: {r: 216.45207, g: 159.94305, b: 521.6604, a: 0}
+    - Vector2_babbfb8c711e4f7c94b14d1ae3304dbd: {r: -5, g: 0, b: 0, a: 0}
+    - Vector2_c1041f0b37c7443fa740a1aff584648c: {r: -1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
