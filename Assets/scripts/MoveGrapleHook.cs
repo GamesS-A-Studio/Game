@@ -51,8 +51,8 @@ public class MoveGrapleHook : MonoBehaviour
         if (coll.CompareTag("Player")) return;
         transform.position = transform.position;
         bater = true;
-        Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.zero;
+       // Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
+      //  rb.velocity = Vector2.zero;
         bola.GetComponentInParent<SpringJoint2D>().connectedBody = coll.GetComponent<Rigidbody2D>();
         bola.GetComponentInParent<SpringJoint2D>().enabled = true;
 

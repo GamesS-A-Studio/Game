@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 380144044}
   - component: {fileID: 380144043}
   - component: {fileID: 380144046}
-  m_Layer: 19
+  m_Layer: 9
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3251,7 +3251,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561497689}
-  m_LocalRotation: {x: 0, y: 0, z: 0.16676876, w: 0.98599607}
+  m_LocalRotation: {x: -0, y: -0, z: 0.16676876, w: 0.98599607}
   m_LocalPosition: {x: -1.4, y: 2.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4077,7 +4077,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 524288
   translocar: 0
-  rb: {fileID: 4617222023216625516}
+  rb: {fileID: 0}
   maxDistance: 10
   grappleSpeed: 120
   grappleShootSpeed: 20
@@ -9156,7 +9156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25e1de9e240087b40a085be884b907a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 4617222023216625516}
+  rb: {fileID: 0}
   TempoAnim1: 0.5
   cdAtk: 0.5
   mv: {fileID: 4617222023216625519}
@@ -10595,27 +10595,6 @@ Transform:
   m_Father: {fileID: 4617222023109528103}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &4617222023216625516
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4617222023216625518}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 96754724044e529409a79ac16ef37230, type: 2}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
 --- !u!1 &4617222023216625518
 GameObject:
   m_ObjectHideFlags: 0
@@ -10625,7 +10604,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4617222023216625513}
-  - component: {fileID: 4617222023216625516}
   - component: {fileID: 4617222023216625503}
   - component: {fileID: 4617222023216625510}
   - component: {fileID: 4617222023216625519}
@@ -10635,6 +10613,7 @@ GameObject:
   - component: {fileID: 591139323752765998}
   - component: {fileID: 4617222023216625522}
   - component: {fileID: 4617222023216625520}
+  - component: {fileID: 4617222023216625523}
   - component: {fileID: 4617222023216625521}
   m_Layer: 7
   m_Name: Player
@@ -10674,7 +10653,7 @@ MonoBehaviour:
   isdashing: 0
   tempoduradash: 0.38
   coldowndash: 0.5
-  "for\xE7aDash": 400
+  "for\xE7aDash": 100
 --- !u!114 &4617222023216625520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10696,7 +10675,7 @@ SpringJoint2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4617222023216625518}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 0}
@@ -10706,9 +10685,9 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 0
-  m_Distance: 0.9
+  m_Distance: 25
   m_DampingRatio: 0.5
-  m_Frequency: 0.5
+  m_Frequency: 2
 --- !u!61 &4617222023216625522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10718,7 +10697,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 4617222023216625518}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 065eb9f0356d4b14d88f62bbefbe0c1b, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -10735,6 +10714,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.5968719, y: 3.3461497}
   m_EdgeRadius: 0
+--- !u!50 &4617222023216625523
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4617222023216625518}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 10
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!222 &4617222023549171240
 CanvasRenderer:
   m_ObjectHideFlags: 0

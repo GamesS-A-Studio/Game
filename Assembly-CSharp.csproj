@@ -82,6 +82,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\scripts\Enemy\basicos\MoveEnemy.cs" />
+    <Compile Include="Assets\scripts\MoveGrapleHook.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\scripts\UI\TeleportMapas.cs" />
     <Compile Include="Assets\scripts\InimigoPatrulhaVoador.cs" />
@@ -134,7 +135,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\scripts\ItemAtivo.cs" />
     <Compile Include="Assets\scripts\Player\Basicos\Caracteristicas.cs" />
-    <Compile Include="Assets\scripts\MoveGrapleHook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
