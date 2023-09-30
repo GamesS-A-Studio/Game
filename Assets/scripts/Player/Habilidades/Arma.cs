@@ -6,7 +6,6 @@ using TMPro;
 
 public class Arma : MonoBehaviour
 {
-    public Rigidbody2D rb;
     public float TempoAnim1;
     public float cdAtk;
     bool lança2, shild;
@@ -134,7 +133,6 @@ public class Arma : MonoBehaviour
         }
 
         yield return new WaitForSeconds(cdAtk);
-        rb.gravityScale = 10f;
         lança2 = false;
         numero = 0;
         StopCoroutine(Cowl2());

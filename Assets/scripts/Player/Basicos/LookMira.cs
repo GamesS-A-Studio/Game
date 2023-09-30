@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LookMira : MonoBehaviour
 {
-    public SpriteRenderer spg;
     public float maxAimDistance = 5f; 
     public GameObject crosshair;
     public Camera maincamera;
@@ -12,7 +11,6 @@ public class LookMira : MonoBehaviour
     public float speed;
     public LayerMask layer;
     public bool translocar;
-    public Rigidbody2D rb;
 
     [SerializeField] float maxDistance = 10f;
     [SerializeField] float grappleSpeed = 10f;
