@@ -12,6 +12,7 @@ public class Move2 : MonoBehaviour
     public float jumpTime = 1f;
     float duraçãoPulo;
     public float jumpDuration;
+    public int jumpQuant;
 
     float checkRadius = 0.8f;
     private Rigidbody2D rb;
@@ -87,17 +88,16 @@ public class Move2 : MonoBehaviour
         }    
         if(podeMovimentar)
         {
-            //jump
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                if (isGrounded || isWall)
+                if (jumpQuant>0)
                 {
                     duraçãoPulo = jumpDuration;
                 }
             }
             if (Input.GetKeyUp(KeyCode.Space))
             {
-
+                jumpQuant =0;
                 anim.SetBool("RetornaJump", false);
                 duraçãoPulo = 0;
             }
@@ -106,6 +106,7 @@ public class Move2 : MonoBehaviour
                 Jump();
                 duraçãoPulo -= 5 * Time.deltaTime;
             }
+           
             ///
             if (!dashlivre)
             {
@@ -172,10 +173,12 @@ public class Move2 : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(GroundCheck.position, checkRadius, whatIsGround);
         if (isGrounded)
         {
+            jumpQuant = 1;
             anim.SetBool("RetornaJump", false);
         }
-        else
+        else if(!isdashing)
         {
+            rb.gravityScale = 10f;
             anim.SetBool("MoveP", false);
         }
         if (isdashing)
@@ -194,32 +197,36 @@ public class Move2 : MonoBehaviour
     public void Move()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        velocidade = this.rb.velocity;
-        velocidade.x = moveInput * this.speed;
-        this.rb.velocity = velocidade;
-        if(isGrounded)
+        if(moveInput != 0)
         {
-            if (moveInput > 0 || moveInput < 0)
+            velocidade = this.rb.velocity;
+            velocidade.x = moveInput * this.speed;
+            this.rb.velocity = velocidade;
+            if (isGrounded)
             {
-                anim.SetBool("MoveP", true);
-            }
-            else
-            {
-                anim.SetBool("MoveP", false);
+                if (moveInput > 0 || moveInput < 0)
+                {
+                    anim.SetBool("MoveP", true);
+                }
+                else
+                {
+                    anim.SetBool("MoveP", false);
 
+                }
+            }
+
+            if (facingRight == false && moveInput > 0)
+            {
+                Flip();
+                direção = Direção.Direita;
+            }
+            else if (facingRight == true && moveInput < 0)
+            {
+                Flip();
+                direção = Direção.Esquerda;
             }
         }
        
-        if (facingRight == false && moveInput > 0)
-        {
-            Flip();
-            direção = Direção.Direita;
-        }
-        else if (facingRight == true && moveInput < 0)
-        {
-            Flip();
-            direção = Direção.Esquerda;
-        }
       
     }
     IEnumerator Dash(float dashduração, float dashcoldown)

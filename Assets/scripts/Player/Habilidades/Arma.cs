@@ -21,9 +21,10 @@ public class Arma : MonoBehaviour
     public Caracteristicas cac;
     public bool dash;
     float shildDesarmer;
+    LookMira look;
     private void Start()
     {
-
+        look = LookMira.lookinstance;
         anim = GetComponent<Animator>();
     }
     private void Update()
@@ -48,7 +49,7 @@ public class Arma : MonoBehaviour
         {
             AtaqueMouse();
         }
-        if(shild == true)
+        if(shild == true && look.isgrapling)
         {
             shildDesarmer += 1 * Time.deltaTime;
         }

@@ -8,10 +8,11 @@ public class MoveGrapleHook : MonoBehaviour
     bool bater;
     float tempo;
     public bool volta;
+    Move2 m;
     // Start is called before the first frame update
     void Start()
     {
-        
+        m = Move2.instancia;
     }
 
     // Update is called once per frame
@@ -51,9 +52,10 @@ public class MoveGrapleHook : MonoBehaviour
         if (coll.CompareTag("Player")) return;
         transform.position = transform.position;
         bater = true;
-       // Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
-      //  rb.velocity = Vector2.zero;
-        bola.GetComponentInParent<SpringJoint2D>().connectedBody = coll.GetComponent<Rigidbody2D>();
+        Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.zero;
+        m.jumpQuant = 1;
+        bola.GetComponentInParent<SpringJoint2D>().connectedBody = rb;
         bola.GetComponentInParent<SpringJoint2D>().enabled = true;
 
     }

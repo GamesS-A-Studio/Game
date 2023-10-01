@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LookMira : MonoBehaviour
 {
+    public static LookMira lookinstance;
     public float maxAimDistance = 5f; 
     public GameObject crosshair;
     public Camera maincamera;
@@ -15,64 +16,70 @@ public class LookMira : MonoBehaviour
     [SerializeField] float maxDistance = 10f;
     [SerializeField] float grappleSpeed = 10f;
     [SerializeField] float grappleShootSpeed = 20f;
-
+    public bool isgrapling;
     public GameObject graplePoint;
     MoveGrapleHook mo;
     public Transform spawn;
     public bool tocou = true;
-    private void Start()
+    public bool grapLiberado;
+    private void Awake()
     {
-
+        lookinstance = this;
     }
     private void Update()
     {
-       
-        if (Input.GetKey(KeyCode.Mouse1))
+        if (grapLiberado)
         {
-            Time.timeScale = 0.3f;
-            crosshair.gameObject.SetActive(true);
-            Vector3 mousePosition = maincamera.ScreenToWorldPoint(Input.mousePosition);
-            mousePosition.z = 0f;
-            Vector3 aimDirection = mousePosition - transform.position;
-            aimDirection.z = 0f;
-            aimDirection.Normalize();
-            float aimDistance = Vector3.Distance(transform.position, mousePosition);
-            if (aimDistance > maxAimDistance)
+            if (Input.GetKey(KeyCode.Mouse1))
             {
-                aimDirection = (mousePosition - transform.position).normalized;
+                isgrapling = true;
+                Time.timeScale = 0.3f;
+                crosshair.gameObject.SetActive(true);
+                Vector3 mousePosition = maincamera.ScreenToWorldPoint(Input.mousePosition);
+                mousePosition.z = 0f;
+                Vector3 aimDirection = mousePosition - transform.position;
                 aimDirection.z = 0f;
-                mousePosition = transform.position + aimDirection * maxAimDistance;
+                aimDirection.Normalize();
+                float aimDistance = Vector3.Distance(transform.position, mousePosition);
+                if (aimDistance > maxAimDistance)
+                {
+                    aimDirection = (mousePosition - transform.position).normalized;
+                    aimDirection.z = 0f;
+                    mousePosition = transform.position + aimDirection * maxAimDistance;
+                }
+                if (crosshair != null)
+                {
+                    crosshair.transform.position = mousePosition;
+                }
+                transform.right = aimDirection;
+
+
             }
-            if (crosshair != null)
+            else { crosshair.SetActive(false); }
+            if (Input.GetKeyUp(KeyCode.Mouse1))
             {
-                crosshair.transform.position = mousePosition;
+                isgrapling = false;
+                Time.timeScale = 1;
+                if (tocou)
+                {
+                    GameObject ob = Instantiate(graplePoint, spawn.transform.position, spawn.rotation);
+                    ob.GetComponent<MoveGrapleHook>().bola = spawn;
+                    mo = ob.GetComponent<MoveGrapleHook>();
+                    tocou = false;
+
+                }
+
             }
-            transform.right = aimDirection;
-
-
-        }
-        else { crosshair.SetActive(false); }
-        if (Input.GetKeyUp(KeyCode.Mouse1))
-        {
-            Time.timeScale = 1;
-            if(tocou)
+            if (Input.GetKeyDown(KeyCode.Space) && mo)
             {
-                GameObject ob = Instantiate(graplePoint, spawn.transform.position, spawn.rotation);
-                ob.GetComponent<MoveGrapleHook>().bola = spawn;
-                mo = ob.GetComponent<MoveGrapleHook>();
-                tocou = false;
-
+                isgrapling = false;
+                mo.volta = true;
+                gameObject.GetComponentInParent<SpringJoint2D>().enabled = false;
             }
 
         }
-        if(Input.GetKeyDown(KeyCode.Space) && mo)
-        {
-            mo.volta = true;
-            gameObject.GetComponentInParent<SpringJoint2D>().enabled = false;
-        }
-       
+        else { crosshair.gameObject.SetActive(false); }
+
+
     }
-    
-
-
 }
