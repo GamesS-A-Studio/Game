@@ -6,6 +6,7 @@ using TMPro;
 
 public class Slot : MonoBehaviour
 {
+    Referencias refinstance;
     public bool fuiEquipago;
     public bool desbloqueado;
     public ItemAtivo it;
@@ -20,10 +21,9 @@ public class Slot : MonoBehaviour
     public int IdItem;
     public GameObject ponteiro;
     public GameObject meuPonteiro;
-    public void OnMouseExit()
+    private void Start()
     {
-        porcima = false;
-        descrição.SetActive(false);
+        refinstance = Referencias.refInstance;
     }
     void Update()
     {
@@ -44,6 +44,11 @@ public class Slot : MonoBehaviour
             }
 
         }
+    }
+    public void OnMouseExit()
+    {
+        porcima = false;
+        descrição.SetActive(false);
     }
     public void OnMouseEnter()
     {

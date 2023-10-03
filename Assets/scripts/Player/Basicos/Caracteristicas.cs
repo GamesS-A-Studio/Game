@@ -17,6 +17,7 @@ public class Caracteristicas : MonoBehaviour
   
     
     public int dinheiro;
+
     public int Dano;
     public float moveSpeed;
     public float reducesColdown;
@@ -24,6 +25,17 @@ public class Caracteristicas : MonoBehaviour
     public int vida;
     public float critico;
     public float mana;
+    public float jumpForce;
+
+    public int baseDano;
+    public float basemoveSpeed;
+    public float basereducesColdown;
+    public float basearmor;
+    public int basevida;
+    public float basecritico;
+    public float basemana;
+    public float basejumpForce;
+
     public float manaMax = 100;
 
     int lvlAtual;

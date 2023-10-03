@@ -420,7 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 110943481}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 633376769}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -2918,7 +2918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 1269656229}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -3614,6 +3614,52 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1613521108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613521110}
+  - component: {fileID: 1613521109}
+  m_Layer: 0
+  m_Name: Gamemannager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1613521109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613521108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06c4d58dcf80b542990be12e9d31761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mv: {fileID: 4617222023216625519}
+  arm: {fileID: 1438831917754846250}
+  cac: {fileID: 4617222023216625510}
+--- !u!4 &1613521110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613521108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -57.13934, y: 27.317945, z: -106.55152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1725378713
 GameObject:
   m_ObjectHideFlags: 0
@@ -3669,7 +3715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 1725378721}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -4063,7 +4109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 1838392671}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -4393,7 +4439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 1984956481}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5108,7 +5154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301304784017124}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5499,7 +5545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301305278509525}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5622,7 +5668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301305789540666}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5912,7 +5958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301305871814940}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -6234,7 +6280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301305900654104}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -6533,7 +6579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301305979602454}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -6885,7 +6931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301306003222696}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -7003,7 +7049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301306116723843}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -7415,7 +7461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301306317066839}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -7517,7 +7563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 11301306389474031}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -8577,7 +8623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 8874528221689289807}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -9188,7 +9234,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1438831919743303604
 Animator:
   serializedVersion: 3
@@ -9729,7 +9775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 3122148544206381198}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -9951,7 +9997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 0
   desbloqueado: 0
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 3122148544617541302}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 3122148544617541302}
@@ -9976,7 +10022,7 @@ MonoBehaviour:
   - {fileID: 11301305900654080}
   - {fileID: 11301305789540642}
   - {fileID: 11301306389473943}
-  meunomeItem: eu sou grande
+  meunomeItem: Grappling
   "minhadescri\xE7\xE3o": ' fa;o cagadas'
   IdItem: 1
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
@@ -10261,7 +10307,6 @@ GameObject:
   - component: {fileID: 4617222023216625511}
   - component: {fileID: 1438831917987287998}
   - component: {fileID: 1438831917754846250}
-  - component: {fileID: 4617222023216625520}
   - component: {fileID: 591139323752765998}
   - component: {fileID: 4617222023216625522}
   - component: {fileID: 4617222023216625523}
@@ -10306,20 +10351,6 @@ MonoBehaviour:
   tempoduradash: 0.38
   coldowndash: 0.5
   "for\xE7aDash": 100
---- !u!114 &4617222023216625520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4617222023216625518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2909dd5483e98f6419eb6577e34ea87a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idItem: 0
-  itens: []
 --- !u!231 &4617222023216625521
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -10815,7 +10846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuiEquipago: 1
   desbloqueado: 1
-  it: {fileID: 4617222023216625520}
+  it: {fileID: 0}
   minhaimage: {fileID: 7272240443124377258}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
