@@ -33,7 +33,7 @@ public class LookMira : MonoBehaviour
             if (Input.GetKey(KeyCode.Mouse1))
             {
                 isgrapling = true;
-                Time.timeScale = 0.3f;
+                Time.timeScale = 0.7f;
                 crosshair.gameObject.SetActive(true);
                 Vector3 mousePosition = maincamera.ScreenToWorldPoint(Input.mousePosition);
                 mousePosition.z = 0f;

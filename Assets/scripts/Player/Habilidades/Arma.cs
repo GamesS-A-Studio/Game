@@ -47,9 +47,10 @@ public class Arma : MonoBehaviour
         }
         else
         {
-            AtaqueMouse();
+           
+                AtaqueMouse();
         }
-        if(shild == true && look.isgrapling)
+        if(shild == true )
         {
             shildDesarmer += 1 * Time.deltaTime;
         }
@@ -63,29 +64,32 @@ public class Arma : MonoBehaviour
     }
     private void AtaqueMouse()
     {
-        
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (look.isgrapling)
         {
-            if(dash)
+            if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                if (dash)
+                {
+                    anim.SetBool("Shild", false);
+                    mv.speed = mv.speedPadrão;
+                    shild = false;
+                }
+                else
+                {
+                    anim.SetBool("Shild", true);
+                    mv.speed = 2;
+                    shild = true;
+                }
+            }
+            if (Input.GetKeyUp(KeyCode.Mouse1))
             {
                 anim.SetBool("Shild", false);
                 mv.speed = mv.speedPadrão;
+                shildDesarmer = 0;
                 shild = false;
             }
-            else
-            {
-                anim.SetBool("Shild", true);
-                mv.speed = 2;
-                shild = true;
-            }
         }
-        if (Input.GetKeyUp(KeyCode.Mouse1))
-        {
-            anim.SetBool("Shild", false);
-            mv.speed = mv.speedPadrão;
-            shildDesarmer = 0;
-            shild = false;
-        }
+
         if(shild == false)
         {
             if (Input.GetKeyUp(KeyCode.Mouse0) && !lança2)
