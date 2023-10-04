@@ -18,7 +18,7 @@ public class LookMira : MonoBehaviour
     [SerializeField] float grappleShootSpeed = 20f;
     public bool isgrapling;
     public GameObject graplePoint;
-    MoveGrapleHook mo;
+    public MoveGrapleHook mo;
     public Transform spawn;
     public bool tocou = true;
     public bool grapLiberado;
@@ -33,7 +33,6 @@ public class LookMira : MonoBehaviour
             if (Input.GetKey(KeyCode.Mouse1))
             {
                 isgrapling = true;
-                Time.timeScale = 0.7f;
                 crosshair.gameObject.SetActive(true);
                 Vector3 mousePosition = maincamera.ScreenToWorldPoint(Input.mousePosition);
                 mousePosition.z = 0f;
@@ -59,7 +58,6 @@ public class LookMira : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.Mouse1))
             {
                 isgrapling = false;
-                Time.timeScale = 1;
                 if (tocou)
                 {
                     GameObject ob = Instantiate(graplePoint, spawn.transform.position, spawn.rotation);
@@ -79,7 +77,11 @@ public class LookMira : MonoBehaviour
 
         }
         else { crosshair.gameObject.SetActive(false); }
-
-
+    }
+    public void cancela()
+    {
+        crosshair.gameObject.SetActive(false);
+        if(mo != null)
+        Destroy(mo.gameObject);
     }
 }

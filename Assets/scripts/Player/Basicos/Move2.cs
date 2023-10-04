@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class Move2 : MonoBehaviour
 {
-    public static Move2 instancia;
+    Referencias refinstance;
     public Image staminaBar;
-
     public float jumpForce1 = 5f;
     public float jumpTime = 1f;
     float duraçãoPulo;
@@ -29,7 +28,7 @@ public class Move2 : MonoBehaviour
     private int numeroplat;
     float tapDashEsqu;
     float tapDashDir;
-    float resetDash = 0.15f;
+    float resetDash = 0.1f;
     Direção direção;
     public Estates estados;
     public Transform GroundCheck;
@@ -51,13 +50,10 @@ public class Move2 : MonoBehaviour
     bool podeMovimentar;
     Vector2 velocidade;
     Vector2 originalVelocity;
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        instancia = this;
-    }
+
     private void Start()
     {
+        refinstance = Referencias.refInstance;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         speedPadrão = speed;
@@ -106,9 +102,8 @@ public class Move2 : MonoBehaviour
                 Jump();
                 duraçãoPulo -= 5 * Time.deltaTime;
             }
-           
-            ///
-            if (!dashlivre)
+         
+            if (!dashlivre && refinstance.look.mo == null)
             {
 
                 if (Input.GetKeyDown(KeyCode.D) && tapDashDir <=0)
@@ -171,14 +166,14 @@ public class Move2 : MonoBehaviour
         Move();
         updadeBarraStamina();
         isGrounded = Physics2D.OverlapCircle(GroundCheck.position, checkRadius, whatIsGround);
-        if (isGrounded)
+        if (isGrounded && !isdashing)
         {
             jumpQuant = 1;
             anim.SetBool("RetornaJump", false);
         }
         else if(!isdashing)
         {
-            rb.gravityScale = 10f;
+            rb.gravityScale = 25f;
             anim.SetBool("MoveP", false);
         }
         if (isdashing)
@@ -187,7 +182,6 @@ public class Move2 : MonoBehaviour
         }
 
     }
- 
     private void Jump()
     {
          rb.velocity = new Vector2(rb.velocity.x, jumpForce1);
@@ -197,24 +191,13 @@ public class Move2 : MonoBehaviour
     public void Move()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        if(moveInput != 0)
+        if(moveInput != 0 && isGrounded)
         {
+           
+            anim.SetBool("MoveP", true);
             velocidade = this.rb.velocity;
             velocidade.x = moveInput * this.speed;
             this.rb.velocity = velocidade;
-            if (isGrounded)
-            {
-                if (moveInput > 0 || moveInput < 0)
-                {
-                    anim.SetBool("MoveP", true);
-                }
-                else
-                {
-                    anim.SetBool("MoveP", false);
-
-                }
-            }
-
             if (facingRight == false && moveInput > 0)
             {
                 Flip();
@@ -226,8 +209,13 @@ public class Move2 : MonoBehaviour
                 direção = Direção.Esquerda;
             }
         }
-       
-      
+        else
+        {
+            anim.SetBool("MoveP", false);
+
+        }
+        if (isGrounded) { rb.drag = 10; } else { rb.drag = 0; }
+            
     }
     IEnumerator Dash(float dashduração, float dashcoldown)
     {

@@ -21,10 +21,10 @@ public class Arma : MonoBehaviour
     public Caracteristicas cac;
     public bool dash;
     float shildDesarmer;
-    LookMira look;
+    Referencias reinstance;
     private void Start()
     {
-        look = LookMira.lookinstance;
+        reinstance = Referencias.refInstance;
         anim = GetComponent<Animator>();
     }
     private void Update()
@@ -47,8 +47,7 @@ public class Arma : MonoBehaviour
         }
         else
         {
-           
-                AtaqueMouse();
+            AtaqueMouse();
         }
         if(shild == true )
         {
@@ -64,27 +63,26 @@ public class Arma : MonoBehaviour
     }
     private void AtaqueMouse()
     {
-        if (look.isgrapling)
+        if (reinstance.look.enabled == false)
         {
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
+                reinstance.mv.speed = 0;
                 if (dash)
                 {
                     anim.SetBool("Shild", false);
-                    mv.speed = mv.speedPadrão;
                     shild = false;
                 }
                 else
                 {
                     anim.SetBool("Shild", true);
-                    mv.speed = 2;
                     shild = true;
                 }
             }
             if (Input.GetKeyUp(KeyCode.Mouse1))
             {
                 anim.SetBool("Shild", false);
-                mv.speed = mv.speedPadrão;
+                reinstance.mv.speed = reinstance.mv.speedPadrão;
                 shildDesarmer = 0;
                 shild = false;
             }
@@ -126,6 +124,7 @@ public class Arma : MonoBehaviour
     }
     private IEnumerator Cowl2()
     {
+        mv.speed = 20f;
         if (numero <= 0)
         {
             anim.Play("Patack", -1);
@@ -138,6 +137,7 @@ public class Arma : MonoBehaviour
         }
 
         yield return new WaitForSeconds(cdAtk);
+        mv.speed = mv.speedPadrão;
         lança2 = false;
         numero = 0;
         StopCoroutine(Cowl2());

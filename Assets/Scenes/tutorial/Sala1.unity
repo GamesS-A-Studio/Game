@@ -418,9 +418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 110943481}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -447,7 +447,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 9
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &110943476
@@ -825,6 +824,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &164417173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164417174}
+  m_Layer: 7
+  m_Name: Itens
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164417174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164417173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1380229179}
+  m_Father: {fileID: 4617222023216625513}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &166904479
 GameObject:
@@ -1461,9 +1491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 633376769}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -1490,7 +1520,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 7
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &633376764
@@ -2916,9 +2945,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 1269656229}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -2945,7 +2974,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 4
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &1269656224
@@ -3314,12 +3342,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380229178}
-  m_LocalRotation: {x: -0, y: -0, z: -0.18051904, w: 0.98357147}
+  m_LocalRotation: {x: -0, y: -0, z: -0.18051906, w: 0.9835715}
   m_LocalPosition: {x: 0.3, y: -0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4617222023216625513}
-  m_RootOrder: 4
+  m_Father: {fileID: 164417174}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -40}
 --- !u!114 &1380229180
 MonoBehaviour:
@@ -3328,7 +3356,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380229178}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0f06649b95a4c04ba8ac88687d8a820, type: 3}
   m_Name: 
@@ -3346,6 +3374,7 @@ MonoBehaviour:
   grappleShootSpeed: 20
   isgrapling: 0
   graplePoint: {fileID: 6585162030240241827, guid: 60a5b2ce82058cc44ad913922520dce6, type: 3}
+  mo: {fileID: 0}
   spawn: {fileID: 1380229179}
   tocou: 1
   grapLiberado: 1
@@ -3646,6 +3675,7 @@ MonoBehaviour:
   mv: {fileID: 4617222023216625519}
   arm: {fileID: 1438831917754846250}
   cac: {fileID: 4617222023216625510}
+  look: {fileID: 1380229180}
 --- !u!4 &1613521110
 Transform:
   m_ObjectHideFlags: 0
@@ -3713,9 +3743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 1725378721}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -3742,7 +3772,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 5
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &1725378716
@@ -4107,9 +4136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 1838392671}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -4136,7 +4165,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 3
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &1838392666
@@ -4437,9 +4465,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 1984956481}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -4466,7 +4494,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 6
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &1984956476
@@ -4805,7 +4832,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2015948398
 Transform:
   m_ObjectHideFlags: 0
@@ -5152,9 +5179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301304784017124}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5181,7 +5208,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 14
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301304784017123
@@ -5543,9 +5569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301305278509525}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5572,7 +5598,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 17
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!222 &11301305278509524
@@ -5666,9 +5691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301305789540666}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5695,7 +5720,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 19
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301305789540641
@@ -5956,9 +5980,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301305871814940}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -5985,7 +6009,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 13
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301305871814939
@@ -6278,9 +6301,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301305900654104}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -6307,7 +6330,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 18
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301305900654087
@@ -6577,9 +6599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301305979602454}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -6606,7 +6628,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 16
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301305979602461
@@ -6929,9 +6950,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301306003222696}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -6958,7 +6979,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 11
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301306003222871
@@ -7047,9 +7067,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301306116723843}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -7076,7 +7096,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 15
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301306116723850
@@ -7459,9 +7478,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301306317066839}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -7488,7 +7507,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 12
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301306317066846
@@ -7561,9 +7579,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 11301306389474031}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -7590,7 +7608,6 @@ MonoBehaviour:
   - {fileID: 11301305789540642}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 20
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!224 &11301306389473942
@@ -8621,9 +8638,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 8874528221689289807}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -8650,7 +8667,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 10
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!114 &1320830699458562027
@@ -8863,22 +8879,6 @@ MonoBehaviour:
   GastoStamina: 25
   cac: {fileID: 4617222023216625510}
   dash: 0
---- !u!114 &1438831917987287998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4617222023216625518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bc2ca6c1aa144e40a01760e648e76ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pos: {fileID: 0}
-  life: {fileID: 4617222023216625511}
-  gameover: {fileID: 0}
-  musicagameover: 0
 --- !u!114 &1438831918219435496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9773,9 +9773,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 3122148544206381198}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -9802,7 +9802,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 2
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!1 &3122148544617541290
@@ -9995,9 +9994,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meuId: 0
   fuiEquipago: 0
-  desbloqueado: 0
-  it: {fileID: 0}
+  desbloqueado: 1
   minhaimage: {fileID: 3122148544617541302}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 3122148544617541302}
@@ -10024,7 +10023,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: Grappling
   "minhadescri\xE7\xE3o": ' fa;o cagadas'
-  IdItem: 1
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!222 &3341367780589424977
@@ -10235,6 +10233,15 @@ MonoBehaviour:
   vida: 0
   critico: 5
   mana: 100
+  jumpForce: 0
+  baseDano: 0
+  basemoveSpeed: 0
+  basereducesColdown: 0
+  basearmor: 0
+  basevida: 0
+  basecritico: 0
+  basemana: 0
+  basejumpForce: 0
   manaMax: 100
   xpAtual: 0
   xpGanho: 0
@@ -10287,7 +10294,7 @@ Transform:
   - {fileID: 1998996398}
   - {fileID: 1495843551}
   - {fileID: 310307800}
-  - {fileID: 1380229179}
+  - {fileID: 164417174}
   - {fileID: 2015948398}
   m_Father: {fileID: 4617222023109528103}
   m_RootOrder: 1
@@ -10305,7 +10312,6 @@ GameObject:
   - component: {fileID: 4617222023216625510}
   - component: {fileID: 4617222023216625519}
   - component: {fileID: 4617222023216625511}
-  - component: {fileID: 1438831917987287998}
   - component: {fileID: 1438831917754846250}
   - component: {fileID: 591139323752765998}
   - component: {fileID: 4617222023216625522}
@@ -10338,8 +10344,8 @@ MonoBehaviour:
   SonsPlayer: {fileID: 4617222023216625503}
   audios:
   - {fileID: 8300000, guid: bf6b2c4d3395f484d98c40364e4b3a64, type: 3}
-  speed: 40
-  SpeedMax: 45
+  speed: 60
+  SpeedMax: 70
   "speedPadr\xE3o": 0
   estados: 0
   GroundCheck: {fileID: 310307800}
@@ -10409,9 +10415,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0.5
-  m_AngularDrag: 0.005
+  m_Mass: 1.3
+  m_LinearDrag: 0
+  m_AngularDrag: 0
   m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10844,9 +10850,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b951d65248748844e98f7b88a23c7254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuiEquipago: 1
-  desbloqueado: 1
-  it: {fileID: 0}
+  meuId: 0
+  fuiEquipago: 0
+  desbloqueado: 0
   minhaimage: {fileID: 7272240443124377258}
   "descri\xE7\xE3o": {fileID: 674937314}
   imagemdesc: {fileID: 584342529266383614}
@@ -10873,7 +10879,6 @@ MonoBehaviour:
   - {fileID: 11301306389473943}
   meunomeItem: 
   "minhadescri\xE7\xE3o": 
-  IdItem: 8
   ponteiro: {fileID: 5111777747982004739, guid: 340f2cd65fa007648bb8bd0d779f10d4, type: 3}
   meuPonteiro: {fileID: 0}
 --- !u!222 &6366464831274731421

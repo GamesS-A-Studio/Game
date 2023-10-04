@@ -7,9 +7,9 @@ using TMPro;
 public class Slot : MonoBehaviour
 {
     Referencias refinstance;
+    public int meuId;
     public bool fuiEquipago;
     public bool desbloqueado;
-    public ItemAtivo it;
     public Image minhaimage;
     bool porcima;
     public GameObject descrição;
@@ -18,7 +18,6 @@ public class Slot : MonoBehaviour
     public GameObject[] slotsMenosEu;
     public string meunomeItem;
     public string minhadescrição;
-    public int IdItem;
     public GameObject ponteiro;
     public GameObject meuPonteiro;
     private void Start()
@@ -33,7 +32,7 @@ public class Slot : MonoBehaviour
         }
         else if(desbloqueado)
         {
-            minhaimage.color = new Color(0.180f, 0.180f, 0.180f);
+            minhaimage.color = new Color(0.130f, 0.130f, 0.130f);
         }else if (!desbloqueado) { minhaimage.color = Color.black; }
         if(porcima == true)
         {
@@ -92,8 +91,15 @@ public class Slot : MonoBehaviour
                 ob.transform.localPosition = Vector3.zero;
                 ob.transform.Rotate(0, 0, 200f);
             }
-            it.idItem = IdItem;
-
+            if(meuId ==0)
+            {
+                refinstance.look.enabled = true;
+            }
+            else
+            {
+                refinstance.look.cancela();
+                refinstance.look.enabled = false;
+            }
             fuiEquipago = true;
         }
     }

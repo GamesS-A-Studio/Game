@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MoveGrapleHook : MonoBehaviour
 {
+    Referencias refinstance;
     public Transform bola;
     bool bater;
     float tempo;
     public bool volta;
-    Move2 m;
     // Start is called before the first frame update
     void Start()
     {
-        m = Move2.instancia;
+        refinstance = Referencias.refInstance;
     }
 
     // Update is called once per frame
@@ -54,7 +54,7 @@ public class MoveGrapleHook : MonoBehaviour
         bater = true;
         Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.zero;
-        m.jumpQuant = 1;
+        refinstance.mv.jumpQuant = 1;
         bola.GetComponentInParent<SpringJoint2D>().connectedBody = rb;
         bola.GetComponentInParent<SpringJoint2D>().enabled = true;
 

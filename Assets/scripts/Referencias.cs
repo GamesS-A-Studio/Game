@@ -8,6 +8,7 @@ public class Referencias : MonoBehaviour
     public Move2 mv;
     public Arma arm;
     public Caracteristicas cac;
+    public LookMira look;
     private void Awake()
     {
         refInstance = this;
