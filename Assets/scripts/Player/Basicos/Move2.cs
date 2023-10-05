@@ -28,7 +28,7 @@ public class Move2 : MonoBehaviour
     private int numeroplat;
     float tapDashEsqu;
     float tapDashDir;
-    float resetDash = 0.1f;
+    float resetDash = 0.05f;
     Direção direção;
     public Estates estados;
     public Transform GroundCheck;
@@ -46,7 +46,7 @@ public class Move2 : MonoBehaviour
     public float tempoduradash;
     public float coldowndash;
     public float forçaDash;
-    bool dashlivre;
+    public bool dashlivre;
     bool podeMovimentar;
     Vector2 velocidade;
     Vector2 originalVelocity;
@@ -57,8 +57,29 @@ public class Move2 : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         speedPadrão = speed;
-    }  
+    }
+
     private void Update()
+    {
+        if(podeMovimentar)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (jumpQuant > 0)
+                {
+                    duraçãoPulo = jumpDuration;
+                }
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                jumpQuant = 0;
+                anim.SetBool("RetornaJump", false);
+                duraçãoPulo = 0;
+            }
+           
+        }
+    }
+    private void FixedUpdate()
     {
         string tipo = estados.ToString();
         limitaçãoVel();
@@ -68,8 +89,8 @@ public class Move2 : MonoBehaviour
                 velocidade.x = 0;
                 this.rb.velocity = velocidade;
                 anim.Play("PIdle", -1);
-                anim.SetBool("MoveP",false);
-                podeMovimentar = false;            
+                anim.SetBool("MoveP", false);
+                podeMovimentar = false;
                 break;
             case "Stun":
                 velocidade.x = 0;
@@ -81,40 +102,26 @@ public class Move2 : MonoBehaviour
             default:
                 podeMovimentar = true;
                 break;
-        }    
-        if(podeMovimentar)
+        }
+        if (podeMovimentar)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                if (jumpQuant>0)
-                {
-                    duraçãoPulo = jumpDuration;
-                }
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                jumpQuant =0;
-                anim.SetBool("RetornaJump", false);
-                duraçãoPulo = 0;
-            }
+          
             if (duraçãoPulo > 0)
             {
                 Jump();
                 duraçãoPulo -= 5 * Time.deltaTime;
             }
-         
             if (!dashlivre && refinstance.look.mo == null)
             {
-
-                if (Input.GetKeyDown(KeyCode.D) && tapDashDir <=0)
+                if (Input.GetKeyDown(KeyCode.D) && tapDashDir <= 0)
                 {
                     tapDashDir = resetDash;
                     tapDashEsqu = 0;
-                }   
+                }
                 if (Input.GetKeyDown(KeyCode.A) && tapDashEsqu <= 0)
                 {
-                    tapDashDir = 0;
                     tapDashEsqu = resetDash;
+                    tapDashDir = 0;
                 }
                 if (Input.GetKeyUp(KeyCode.D))
                 {
@@ -123,46 +130,43 @@ public class Move2 : MonoBehaviour
                 }
                 if (Input.GetKeyUp(KeyCode.A))
                 {
-                    canDashDir = false;
                     canDashEsqu = true;
+                    canDashDir = false;
                 }
-                if (tapDashEsqu > 0 && canDashEsqu)
+
+            }
+            if (tapDashEsqu > 0 && canDashEsqu)
+            {
+                tapDashEsqu -= Time.deltaTime;
+                if (Input.GetKeyDown(KeyCode.A))
                 {
-                    tapDashEsqu -= Time.deltaTime;
-                    if (Input.GetKeyDown(KeyCode.A))
+                    if (dashcourotine != null && estamina >= 30)
                     {
-                        if (dashcourotine != null && estamina >= 30)
-                        {
-                            StopCoroutine(dashcourotine);
-                        }
-                        dashcourotine = Dash(tempoduradash, coldowndash);
-                        StartCoroutine(dashcourotine);
-                        canDashEsqu = false;
-                        tapDashEsqu = 0;
+                        StopCoroutine(dashcourotine);
                     }
+                    dashcourotine = Dash(tempoduradash, coldowndash);
+                    StartCoroutine(dashcourotine);
+                    canDashEsqu = false;
+                    tapDashEsqu = 0;
                 }
-                if(tapDashDir >0 && canDashDir)
+            }
+            if (tapDashDir > 0 && canDashDir)
+            {
+                tapDashDir -= Time.deltaTime;
+                if (Input.GetKeyDown(KeyCode.D))
                 {
-                    tapDashDir -= Time.deltaTime;
-                    if (Input.GetKeyDown(KeyCode.D))
+                    if (dashcourotine != null && estamina >= 30)
                     {
-                        if (dashcourotine != null && estamina >= 30)
-                        {
-                            StopCoroutine(dashcourotine);
-                        }
-                        dashcourotine = Dash(tempoduradash, coldowndash);
-                        StartCoroutine(dashcourotine);
-                        canDashDir = false;
-                        tapDashEsqu = 0;
+                        StopCoroutine(dashcourotine);
                     }
+                    dashcourotine = Dash(tempoduradash, coldowndash);
+                    StartCoroutine(dashcourotine);
+                    canDashDir = false;
+                    tapDashEsqu = 0;
                 }
             }
 
         }
-    
-    }
-    private void FixedUpdate()
-    {
         Move();
         updadeBarraStamina();
         isGrounded = Physics2D.OverlapCircle(GroundCheck.position, checkRadius, whatIsGround);
@@ -259,7 +263,6 @@ public class Move2 : MonoBehaviour
         else { numeroplat = 0; }
 
     }
-
     public void OnTriggerExit2D(Collider2D coll)
     {
         if ( coll.CompareTag("Plataforma"))

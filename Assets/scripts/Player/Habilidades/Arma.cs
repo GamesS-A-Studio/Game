@@ -67,7 +67,8 @@ public class Arma : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
-                reinstance.mv.speed = 0;
+                reinstance.mv.speed = 20;
+                reinstance.mv.dashlivre = true;
                 if (dash)
                 {
                     anim.SetBool("Shild", false);
@@ -83,6 +84,7 @@ public class Arma : MonoBehaviour
             {
                 anim.SetBool("Shild", false);
                 reinstance.mv.speed = reinstance.mv.speedPadrão;
+                reinstance.mv.dashlivre = false;
                 shildDesarmer = 0;
                 shild = false;
             }

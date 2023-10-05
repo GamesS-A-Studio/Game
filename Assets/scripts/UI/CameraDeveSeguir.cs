@@ -19,23 +19,13 @@ public class CameraDeveSeguir : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 currentPosition = transform.position;
-
-        // Obtém a posição atual do jogador
         Vector3 playerPosition = player.position;
-
-        // Limita a posição do jogador dentro dos limites estabelecidos
         playerPosition.x = Mathf.Clamp(playerPosition.x, MinX, MaxX);
         playerPosition.y = Mathf.Clamp(playerPosition.y, MinY, MaxY);
 
-        // Move a câmera em direção à posição do jogador usando MoveTowards
-        Vector3 moveTowardsPosition = Vector3.MoveTowards(currentPosition, playerPosition, speed * Time.deltaTime);
-
-        // Suaviza ainda mais a posição da câmera usando SmoothDamp
+        Vector3 moveTowardsPosition = Vector3.Lerp(currentPosition, playerPosition, speed * Time.deltaTime);
         Vector3 smoothedPosition = Vector3.SmoothDamp(moveTowardsPosition, playerPosition, ref velocity, smoothTime);
-
-        // Atualiza a posição da câmera, mantendo a coordenada z a -10 para profundidade em um ambiente 3D
         transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y, -10);
-
 
     }
 
