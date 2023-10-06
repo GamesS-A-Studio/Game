@@ -165,9 +165,9 @@ public class Move2 : MonoBehaviour
                     tapDashEsqu = 0;
                 }
             }
-
+            Move();
         }
-        Move();
+
         updadeBarraStamina();
         isGrounded = Physics2D.OverlapCircle(GroundCheck.position, checkRadius, whatIsGround);
         if (isGrounded && !isdashing)
@@ -195,7 +195,7 @@ public class Move2 : MonoBehaviour
     public void Move()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        if(moveInput != 0 && isGrounded)
+        if(moveInput != 0)
         {
            
             anim.SetBool("MoveP", true);
@@ -218,7 +218,7 @@ public class Move2 : MonoBehaviour
             anim.SetBool("MoveP", false);
 
         }
-        if (isGrounded) { rb.drag = 10; } else { rb.drag = 0; }
+        if (isGrounded && refinstance.arm.shild == false) { rb.drag = 10; } else if(!isGrounded){ rb.drag = 0;}
             
     }
     IEnumerator Dash(float dashduração, float dashcoldown)

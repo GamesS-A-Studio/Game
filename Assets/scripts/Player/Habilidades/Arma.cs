@@ -8,7 +8,7 @@ public class Arma : MonoBehaviour
 {
     public float TempoAnim1;
     public float cdAtk;
-    bool lança2, shild;
+    public bool lança2, shild;
     int numero;
     Animator anim;
     public Move2 mv;
