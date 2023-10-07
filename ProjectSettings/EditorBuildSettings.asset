@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/tutorial/Sala3.unity
-    guid: e4ca4825e88c3c841b271b1e40dffc6a
+    path: Assets/Scenes/tutorial/Sala1.unity
+    guid: 906cd04e459e02540a93f265c6ee7c47
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6674be825f5e2374d887a5b6cc75c420, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9e3453a492053e24380c8c4e800ea925, type: 2}

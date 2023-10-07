@@ -63,7 +63,7 @@ Material:
     - _EnableExternalAlpha: 0
     m_Colors:
     - Color_6901cfbcd38a45f38affc7031bd9276c: {r: 565.0694, g: 0, b: 0, a: 0}
-    - Color_c87f054c72b04af8b979ce95dbeeb12f: {r: 23.968628, g: 23.968628, b: 23.968628, a: 0}
+    - Color_c87f054c72b04af8b979ce95dbeeb12f: {r: 0.47843137, g: 0.47843137, b: 0.47843137, a: 0}
     - Color_cbc62e25237f4407ae539533846bc832: {r: 754.94904, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
