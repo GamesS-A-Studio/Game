@@ -1,26 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+
 using TMPro;
+using UnityEngine;
 
 public class DamageText : MonoBehaviour
 {
-   
-    public TextMeshProUGUI damage;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Destroy(gameObject, 2f);
-    }
+    public GameObject uiText;
 
-    // Update is called once per frame
-    public void SetText(string value)
+    // Start is called before the first frame update
+
+    public void APPDamageText(GameObject ob, string damageText, Color cor)
     {
-        damage.text = value;
-    }
-    public void SetText2(string value2)
-    {
-        damage.text = value2;
+        Vector3 vec = new Vector3(Random.Range(transform.position.x - 0.5f, transform.position.x + 0.5f), transform.position.y, transform.position.z);
+        GameObject oi = Instantiate(ob, vec, Quaternion.identity);
+        oi.GetComponentInChildren<TextMeshProUGUI>().text = damageText;
+        oi.GetComponentInChildren<TextMeshProUGUI>().color = cor;
+        Destroy(oi.gameObject, 1.5f);
+
+
     }
 }

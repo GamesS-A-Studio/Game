@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 391e1b0a5fae5b047a7adde15635f4bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5315
+        width: 898
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8b628c607af23479b24bfa2122f636
+      internalID: 1753751134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 5404
+        width: 648
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb100828d0b6e40876b4c6fd1c6a1d
+      internalID: -1076606229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 4309
+        width: 1006
+        height: 1139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f8dc53658b33c44964b92f2c7ccd22
+      internalID: 1024905209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 4386
+        width: 996
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b297f76f88c104cb406df4cd152666
+      internalID: -1206663655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 4407
+        width: 1148
+        height: 1176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781dd50b4650a074d93341f137cb8b45
+      internalID: 232780325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 2846
+        width: 1203
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efca3dc55e3a2c54e89f8d299fecdeca
+      internalID: 1717846124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2864
+        width: 1262
+        height: 1278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb836d0063d11444f95cd30d6df84593
+      internalID: -1652029483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_12"
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 2361
+        width: 1337
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9726d187a8eb443aa52f0bb19fd147
+      internalID: 1996305224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_18"
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 1951
+        width: 929
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8888cff09fa627048a9d014115c5279a
+      internalID: 723553952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_20"
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1475
+        width: 1318
+        height: 1312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84023c88cda4fff43aa6007dccbd1ce2
+      internalID: -61050921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_22"
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1660
+        width: 611
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2ad3b60619b4499b47281df1b3838
+      internalID: 821155952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_23"
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 259
+        width: 1006
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09898f18a60fa6c48b4d1b3650c7f9ff
+      internalID: -342208825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "elementais-padr\xE3o_24"
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 0
+        width: 1169
+        height: 1259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353552699b42a0f4ca274865eeaaa54c
+      internalID: 145597628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "elementais-padr\xE3o_0": 1753751134
+      "elementais-padr\xE3o_1": -1076606229
+      "elementais-padr\xE3o_10": 2080497692
+      "elementais-padr\xE3o_11": 392620928
+      "elementais-padr\xE3o_12": 1996305224
+      "elementais-padr\xE3o_13": -1655956903
+      "elementais-padr\xE3o_14": -1321261668
+      "elementais-padr\xE3o_15": 1441112149
+      "elementais-padr\xE3o_16": 452423180
+      "elementais-padr\xE3o_17": 1741616122
+      "elementais-padr\xE3o_18": 723553952
+      "elementais-padr\xE3o_19": 653948485
+      "elementais-padr\xE3o_2": 2120108318
+      "elementais-padr\xE3o_20": -61050921
+      "elementais-padr\xE3o_21": -164402988
+      "elementais-padr\xE3o_22": 821155952
+      "elementais-padr\xE3o_23": -342208825
+      "elementais-padr\xE3o_24": 145597628
+      "elementais-padr\xE3o_3": 1024905209
+      "elementais-padr\xE3o_4": -1206663655
+      "elementais-padr\xE3o_5": 232780325
+      "elementais-padr\xE3o_6": -549452109
+      "elementais-padr\xE3o_7": -1225912960
+      "elementais-padr\xE3o_8": 1717846124
+      "elementais-padr\xE3o_9": -1652029483
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,45 +4,28 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
+  - Player2
   - Inimigo
-  - Parede
-  - Plataforma
-  - Magia1
-  - MachTP
-  - CheckPoint
-  - arma
-  - atravessa
-  - spawn
-  - PoisonPlayer
-  - FxTemporaire
-  - armadilhas
   - AtackPlayer
-  - armaEnemy
-  - AtackEnemie
+  - Chao
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - parede
+  - 
   - Water
   - UI
-  - PlayerColideSemEfeito
   - Player
-  - Ground
-  - Inimigo
+  - Enemy
   - AtackPlayer
-  - AtackInimigo
-  - "s\xF3ColideCh\xE3o"
-  - Sulgador
+  - AtackEnemy
+  - "S\xF3colideChao"
+  - chao
+  - SthealthArea
+  - parede
+  - Map
   - Plataforma
-  - escudos
-  - Arma
-  - Luzes
-  - 
-  - armadilhas
-  - 
-  - atravessa
+  - shild
   - 
   - 
   - 
@@ -52,32 +35,34 @@ TagManager:
   - 
   - 
   - 
-  - postprocessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
-  - name: background3
-    uniqueID: 800595019
-    locked: 0
-  - name: background2
-    uniqueID: 126225997
-    locked: 0
-  - name: bakgroundfog
-    uniqueID: 2897208107
-    locked: 0
-  - name: background1
-    uniqueID: 1923813451
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: main
-    uniqueID: 1408066839
+  - name: BackGround
+    uniqueID: 1818210045
     locked: 0
-  - name: Front1
-    uniqueID: 133600009
+  - name: lua
+    uniqueID: 2923725437
     locked: 0
-  - name: Frontfog
-    uniqueID: 3648173993
+  - name: Mid
+    uniqueID: 2447836977
     locked: 0
-  - name: Front2
-    uniqueID: 27452279
+  - name: PlayerEnemy
+    uniqueID: 2178323863
+    locked: 0
+  - name: FrontGround
+    uniqueID: 3308299203
+    locked: 0
+  - name: ui
+    uniqueID: 3431647035
+    locked: 0
+  - name: map
+    uniqueID: 590131403
     locked: 0
