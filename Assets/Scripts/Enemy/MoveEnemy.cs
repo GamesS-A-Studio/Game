@@ -26,17 +26,17 @@ public class MoveEnemy : MonoBehaviour
     public float groundCircleRadius;
     public float speed;
     public float distanciaAtacar;
-    public bool começouAtaque;
+    public bool comeouAtaque;
     public Animator anim;
 
     Vector2 randomPosition;
     float impulseForce =7;
     float temposalto;
-    public enum direção
+    public enum direo
     {
         direita, esquerda
     }
-    public direção orientacao;
+    public direo orientacao;
     private void Start()
     {
         positionInitial = transform.position;
@@ -126,7 +126,7 @@ public class MoveEnemy : MonoBehaviour
                 }
                 else
                 {
-                    if (!começouAtaque)
+                    if (!comeouAtaque)
                     {
                         float distanceToPlayer = vv.transPlayer.transform.position.x - transform.position.x;
                         if (Mathf.Abs(distanceToPlayer) > distanciaAtacar)
@@ -157,14 +157,14 @@ public class MoveEnemy : MonoBehaviour
                         }
                         else
                         {
-                            começouAtaque = true;
+                            comeouAtaque = true;
                             rb.velocity = Vector2.zero; 
                         }
                     }
                 }
             }
         }
-        orientacao = (transform.rotation.y == 0) ? direção.direita : direção.esquerda;
+        orientacao = (transform.rotation.y == 0) ? direo.direita : direo.esquerda;
         anim.SetBool("Move", Mov() > 0.3f);
     }
     public void salto(float distance, Vector3 ud, bool considera)

@@ -16,7 +16,7 @@ public class Lookat : MonoBehaviour
     {
         if(mv != null)
         {
-            if(mv.começouAtaque)
+            if(mv.comeouAtaque)
             {
                 transform.LookAt(gm.movimentPlayer.transform);
             }

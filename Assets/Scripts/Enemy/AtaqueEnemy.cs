@@ -31,7 +31,7 @@ public class AtaqueEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(mv.começouAtaque)
+        if(mv.comeouAtaque)
         {
             if (atk == null && vida.lifeAtual>0)
             {
@@ -84,7 +84,7 @@ public class AtaqueEnemy : MonoBehaviour
                         anim.Play("Atack0", 0);
                         yield return new WaitForSeconds(tempoAteSpawn);
                         GameObject ob = Instantiate(prefbAtk[0], spwnatk.transform.position + posSpaw, spwnatk.rotation);
-                        if (mv.orientacao == MoveEnemy.direção.direita)
+                        if (mv.orientacao == MoveEnemy.direo.direita)
                         {
                             ob.transform.rotation = Quaternion.Euler(0, 0, ob.transform.rotation.z);
                         }
@@ -132,7 +132,7 @@ public class AtaqueEnemy : MonoBehaviour
                             o = ob;
                         }
                     
-                        if (mv.orientacao == MoveEnemy.direção.direita)
+                        if (mv.orientacao == MoveEnemy.direo.direita)
                         {
                             o.transform.rotation = Quaternion.Euler(0, 0, o.transform.rotation.z);
                         }
@@ -148,7 +148,7 @@ public class AtaqueEnemy : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(cdAtk);
-        mv.começouAtaque = false;
+        mv.comeouAtaque = false;
         atk = null;
     }
 }

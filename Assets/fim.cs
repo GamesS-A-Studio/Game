@@ -11,7 +11,7 @@ public class fim : MonoBehaviour
     public GameObject imagemFim;
     public Animator animPlayer;
     public Animator animCena;
-    public float TempoAnimação;
+    public float TempoAnimao;
     bool startou;
     IEnumerator eu;
     public ShakeData hitShake;
@@ -51,7 +51,7 @@ public class fim : MonoBehaviour
         yield return new WaitForSeconds(1f);
         CameraShakerHandler.Shake(hitShake);
         text.text = menssagemtexto[1];
-        yield return new WaitForSeconds(TempoAnimação);
+        yield return new WaitForSeconds(TempoAnimao);
         text.gameObject.SetActive(false);
         imagemFim.SetActive(true);
         Time.timeScale = 0;

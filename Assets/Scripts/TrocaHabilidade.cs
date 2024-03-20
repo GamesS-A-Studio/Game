@@ -14,7 +14,7 @@ public class TrocaHabilidade : MonoBehaviour
     public LayerMask groundLayer;
     private Vector3 currentVelocity;
     public bool naomovimenta;
-    public float forçAtacao;
+    public float forAtacao;
     // Start is called before the first frame update
     void Start()
     {
@@ -64,7 +64,7 @@ public class TrocaHabilidade : MonoBehaviour
             rb.velocity = Vector2.zero;
             if(Vector2.Distance(gm.movimentPlayer.transform.position, transform.position)>1.5f)
             {
-                gm.movimentPlayer.transform.position = Vector2.Lerp(gm.movimentPlayer.transform.position, transform.position, forçAtacao * Time.deltaTime);
+                gm.movimentPlayer.transform.position = Vector2.Lerp(gm.movimentPlayer.transform.position, transform.position, forAtacao * Time.deltaTime);
                 Destroy(this.gameObject,0.5f);
             }
             else

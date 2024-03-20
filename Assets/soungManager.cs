@@ -17,7 +17,7 @@ public class soungManager : MonoBehaviour
     public float velocity;
     public bool gameOVER;
     public bool menu;
-    public bool começou;
+    public bool comeou;
     GameManager gm;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class soungManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!começou)
+        if(!comeou)
         {
             musicaAmbiente.Stop();
         }
@@ -87,7 +87,7 @@ public class soungManager : MonoBehaviour
             }
         }
     }
-    IEnumerator ComeçouBossFigth()
+    IEnumerator ComeouBossFigth()
     {
         yield return null;
     }

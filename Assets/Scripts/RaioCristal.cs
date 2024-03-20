@@ -14,14 +14,14 @@ public class RaioCristal : MonoBehaviour
     public BoosArmadure b;
     public Animator anim;
     public Life vida;
-    public bool ativaçãoBoos;
+    public bool ativaoBoos;
     public bool BoosFigth;
     public GameObject icon;
     public SpriteRenderer sp;
     public Material matoriginal;
     public Material matpost;
 
-    [Header("Animação")]
+    [Header("Animao")]
     public float tempoAnimacao;
     IEnumerator en;
     public BoosArmadure bb;
@@ -77,7 +77,7 @@ public class RaioCristal : MonoBehaviour
                 anim.SetBool("caiu", true);
                 sp.material = matoriginal;
             }
-            if (ativaçãoBoos && !BoosFigth)
+            if (ativaoBoos && !BoosFigth)
             {
                 if (Input.GetKey(KeyCode.E))
                 {
@@ -130,7 +130,7 @@ public class RaioCristal : MonoBehaviour
     }
     IEnumerator inicia()
     {
-        anim.Play("começoucristal", 0);
+        anim.Play("comeï¿½oucristal", 0);
         sp.material = matpost;
         rochaporta.SetBool("p", true);
         yield return new WaitForSeconds(tempoAnimacao+2f);
@@ -157,7 +157,7 @@ public class RaioCristal : MonoBehaviour
     {
         if (coll.CompareTag("Player"))
         {
-            ativaçãoBoos = true;
+            ativaoBoos = true;
             if(!BoosFigth)
             {
                 icon.SetActive(true);
@@ -177,7 +177,7 @@ public class RaioCristal : MonoBehaviour
     {
         if (coll.CompareTag("Player"))
         {
-            ativaçãoBoos = false;
+            ativaoBoos = false;
             if (!BoosFigth)
             {
                 icon.SetActive(false);

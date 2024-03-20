@@ -51,7 +51,7 @@ public class BoosArmadure : MonoBehaviour
     public GameObject Particle2;
     public GameObject[] add;
     public Transform spawn2;
-    public GameObject[] invocaçoes;
+    public GameObject[] invocaoes;
     IEnumerator Atk2Enum;
     [Header("________________Atack3___________")]
     [Header("____________________________________________________________")]
@@ -252,7 +252,7 @@ public class BoosArmadure : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, 0);
         orientacao = Direcao.Direita;
         anim.Play("antes", 0);
-        foreach(GameObject ob in invocaçoes)
+        foreach(GameObject ob in invocaoes)
         {
             if(ob != null)
             {
@@ -312,7 +312,7 @@ public class BoosArmadure : MonoBehaviour
             Spawn(Particle2, spawn2);
             yield return new WaitForSeconds(0.2f);
             GameObject novoObjetoAdd = Spawn(add[b], spawn2);
-            invocaçoes[x] = novoObjetoAdd;
+            invocaoes[x] = novoObjetoAdd;
             StartAnim("Atack2", false);
             yield return new WaitForSeconds(1.5f);
         }

@@ -25,7 +25,7 @@ public class destativa : MonoBehaviour
         }
     }
     // Update is called once per frame
-    public void começa()
+    public void comea()
     {
         if(rot == null)
         {

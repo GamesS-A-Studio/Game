@@ -83,7 +83,7 @@ public class Life : MonoBehaviour
         gm.vida.appheal(Random.Range(5,10));
         GameObject ob = Instantiate(particleMorte, transform.position + loc, Quaternion.identity);
         yield return new WaitForSeconds(0.2f);
-        des.começa();
+        des.comea();
     }
   
     public void appDamag(float valor)

@@ -19,12 +19,12 @@ public class Habilities : MonoBehaviour
     public bool Transpoder;
 
 
-    public GameObject descrição;
+    public GameObject descrio;
 
    
     [Header("_____________SmokeBomb_____________")]
     [Header("_____________SmokeBomb_____________")]
-    public string descriçãoesq;
+    public string descrioesq;
    
     public bool transponderLiberada;
 
@@ -52,7 +52,7 @@ public class Habilities : MonoBehaviour
         }
         if(gm.estadosGame == EstadoJogo.jogo)
         {
-            descrição.SetActive(false);
+            descrio.SetActive(false);
         }
       
 
@@ -60,13 +60,13 @@ public class Habilities : MonoBehaviour
     public void sobre(string desc)
     {
 
-        descrição.GetComponent<TextMeshProUGUI>().text = desc;
-        descrição.SetActive(true);
+        descrio.GetComponent<TextMeshProUGUI>().text = desc;
+        descrio.SetActive(true);
     }
     public void saiu()
     {
 
-        descrição.SetActive(false);
+        descrio.SetActive(false);
     }
     public void selectEsquiva()
     {

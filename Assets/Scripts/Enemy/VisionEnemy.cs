@@ -109,7 +109,7 @@ public class VisionEnemy : MonoBehaviour
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireCube(transform.position, boxNormal);
 
-            if (mv.orientacao == MoveEnemy.direção.direita)
+            if (mv.orientacao == MoveEnemy.direo.direita)
             {
                 Gizmos.color = Color.blue;
                 Gizmos.DrawWireCube(new Vector2(transform.position.x, transform.position.y),box2);

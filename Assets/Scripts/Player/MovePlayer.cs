@@ -13,9 +13,9 @@ public class MovimentPlayer : MonoBehaviour
     [Header("____________________________________________________________")]
     public float jumpForce = 5f;
     public float jumpTime = 1f;
-    float duraçãoPulo;
+    float duraoPulo;
     public float jumpDuration;
-    public Vector2 forçaJumpWall;
+    public Vector2 foraJumpWall;
     public bool iswall;
     public float radiusWall;
     public LayerMask layerWall;
@@ -56,9 +56,9 @@ public class MovimentPlayer : MonoBehaviour
     [Header("__________Dash_____________")]
     [Header("__________Dash_____________")]
     public bool fazendodash;
-    public float DuraçãoDash;
+    public float DuraoDash;
     public float CDDash;
-    public float forçaDash;
+    public float foraDash;
     public ShakeData dashShake;
     public GameObject particleDash;
     IEnumerator dashNum;
@@ -122,10 +122,10 @@ public class MovimentPlayer : MonoBehaviour
         iswall = (gm.direcaoPlayer == DirecaoPlayer.direita) ? Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y+0.5f), radiusWall, layerWall):
             Physics2D.OverlapCircle(new Vector2(transform.position.x , transform.position.y + 0.5f), radiusWall, layerWall);
 
-        if (duraçãoPulo > 0)
+        if (duraoPulo > 0)
         {
             Jump();
-            duraçãoPulo -= 5 * Time.deltaTime;
+            duraoPulo -= 5 * Time.deltaTime;
            
         }
         coll = Physics2D.OverlapCircleAll(transform.position, radiusAreaStealth, layerStealth);
@@ -172,7 +172,7 @@ public class MovimentPlayer : MonoBehaviour
         }
         if (fazendodash && !isgrounded)
         {
-            if (duraçãoPulo <= 0 && !iswall)
+            if (duraoPulo <= 0 && !iswall)
             {
                 rb.velocity += Vector2.down * quedaJump * Time.deltaTime;
                 sliding = false;
@@ -189,7 +189,7 @@ public class MovimentPlayer : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 
-                duraçãoPulo = jumpDuration;
+                duraoPulo = jumpDuration;
             }
             sliding = false;
         }
@@ -210,7 +210,7 @@ public class MovimentPlayer : MonoBehaviour
             }
             if (Input.GetKeyUp(KeyCode.Space) && !iswall)
             {
-                duraçãoPulo = 0;
+                duraoPulo = 0;
             }
         }
         if(Input.GetKey(KeyCode.W))
@@ -252,11 +252,11 @@ public class MovimentPlayer : MonoBehaviour
         anim.Play("jump", 0);
         if (gm.direcaoPlayer == DirecaoPlayer.direita)
         {
-            rb.velocity = new Vector2(-1 * forçaJumpWall.x, 1* forçaJumpWall.y );
+            rb.velocity = new Vector2(-1 * foraJumpWall.x, 1* foraJumpWall.y );
         }
         else
         {
-            rb.velocity = new Vector2(1 * forçaJumpWall.x,1 * forçaJumpWall.y);
+            rb.velocity = new Vector2(1 * foraJumpWall.x,1 * foraJumpWall.y);
         }
         Flip();
     }
@@ -311,19 +311,19 @@ public class MovimentPlayer : MonoBehaviour
     {
         float gravityNormal = rb.gravityScale;
         float down = quedaJump;
-        float fors = forçaDash;
+        float fors = foraDash;
         Vector2 dashDirection = gm.direcaoPlayer == DirecaoPlayer.direita ? Vector2.right.normalized : Vector2.left.normalized;
         rb.velocity = Vector2.zero;
         rb.gravityScale = 0;
         GameObject oo = Instantiate(particleDash, transform.position, Quaternion.identity);
         yield return new WaitForSeconds(0.1f);
-        float endTime = Time.time + DuraçãoDash;
+        float endTime = Time.time + DuraoDash;
         anim.Play("Dash", 0);
         fazendodash = true;
         while (Time.time < endTime)
         {
-            rb.AddForce(dashDirection * forçaDash, ForceMode2D.Force);
-            forçaDash--;
+            rb.AddForce(dashDirection * foraDash, ForceMode2D.Force);
+            foraDash--;
             yield return null;
         }
         
@@ -331,7 +331,7 @@ public class MovimentPlayer : MonoBehaviour
         quedaJump = down;
         CDcontador = CDDash;
         fazendodash = false;
-        forçaDash = fors;
+        foraDash = fors;
         yield return new WaitForSeconds(CDDash);
         dashNum = null;
     }

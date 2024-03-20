@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
     [Header("_________Menu_________")]
     public GameObject logo;
     public GameObject menuGameOver;
-    public float tempoComeço;
+    public float tempoComeo;
     IEnumerator num;
     IEnumerator num2;
     public infos inf = new infos();
@@ -223,7 +223,7 @@ public class GameManager : MonoBehaviour
     }
     IEnumerator Starta()
     {
-        yield return new WaitForSeconds(tempoComeço);
+        yield return new WaitForSeconds(tempoComeo);
         logo.SetActive(false);
         yield return new WaitForSeconds(0.4f);
         movimentPlayer.enabled = true;
@@ -249,7 +249,7 @@ public class infos
 }
 public class checkPoint
 {
-    public Vector2 posição;
+    public Vector2 posio;
     public bool boos1;
     public float vidaatual;
 }
