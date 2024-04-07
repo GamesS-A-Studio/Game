@@ -19,6 +19,8 @@ public class Mira : MonoBehaviour
 
     public bool AtaquePronto;
     bool atacklivre;
+    Coroutine attackCoroutine; // Reference to the attack coroutine.
+    
     [Header("_______________________________________")]
     [Header("Mira")]
     [Header("_______________________________________")]
@@ -31,11 +33,13 @@ public class Mira : MonoBehaviour
     public Transform Player;
     public Camera cam;
     public Rigidbody2D rb;
+
     void Start()
     {
         AtaquePronto = true;
         gm = GameManager.gmInstance;
     }
+
     void Update()
     {
         if(gm == null)
@@ -51,13 +55,18 @@ public class Mira : MonoBehaviour
                 {
                     AtackMelleCD = 0;
                 }
-                if (Input.GetKey(KeyCode.Mouse0))
+                if (Input.GetKeyDown(KeyCode.X))
                 {
                     if (AtackMelleTempo <= 0)
                     {
-                        Atack();
+                        // If an attack coroutine is already running, stop it to allow for a new attack sequence.
+                        if (attackCoroutine != null)
+                        {
+                            StopCoroutine(attackCoroutine);
+                        }
+                        // Start a new attack coroutine.
+                        attackCoroutine = StartCoroutine(AttackSequence());
                     }
-
                 }
                 if (AtackMelleTempo > 0)
                 {
@@ -67,19 +76,38 @@ public class Mira : MonoBehaviour
             arma1.SetActive(AtaquePronto);
             arma2.SetActive(AtaquePronto);
         }
- 
-      
     }
-    public void Atack()
+
+    IEnumerator AttackSequence()
     {
-        if (!atacklivre)
+        for (int x = 0; x < quantidadeDeAtaques; x++)
         {
-
-            StartCoroutine(anima());
-            atacklivre = true;
+            yield return new WaitForSeconds(TempoAntesSpawn);
+            // Determine which attack animation to play.
+            int o = Random.Range(0, 100);
+            if (o <= 30)
+            {
+                anim.Play("ATKPlayer3", 0);
+                Instantiate(prefabAtack1, arma.transform.position, arma.transform.rotation);
+            }
+            else if (o > 30 && o <= 60)
+            {
+                anim.Play("ATKPlayer1", 0);
+                Instantiate(prefabAtack2, arma.transform.position, arma.transform.rotation);
+            }
+            else
+            {
+                anim.Play("ATKPlayer2", 0);
+                Instantiate(prefabAtack3, arma.transform.position, arma.transform.rotation);
+            }
+            yield return new WaitForSeconds(0.3f);
         }
-
+        yield return new WaitForSeconds(0.1f);
+        AtackMelleTempo = AtackMelleCD;
+        atacklivre = false;
+        attackCoroutine = null; // Reset the attack coroutine reference.
     }
+
     void Aim()
     {
         Vector3 mouse = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
@@ -87,13 +115,12 @@ public class Mira : MonoBehaviour
         gm.miraIcon.transform.position = mouse;
         float angle = Mathf.Atan2(directionToMouse.y, directionToMouse.x) * Mathf.Rad2Deg;
         arma.transform.rotation = Quaternion.Euler(0f, 0f, angle);
-        if(gm.movimentPlayer.horizontal ==0)
+        if(gm.movimentPlayer.horizontal == 0)
         {
             if (cam.WorldToScreenPoint(Player.transform.position).x > Input.mousePosition.x)
             {
                 Player.transform.rotation = Quaternion.Euler(0, 180, 0);
                 gm.direcaoPlayer = DirecaoPlayer.esquerda;
-
             }
             else
             {
@@ -101,36 +128,5 @@ public class Mira : MonoBehaviour
                 gm.direcaoPlayer = DirecaoPlayer.direita;
             }
         }
-      
-    }
-    IEnumerator anima()
-    {
-        int o = Random.Range(0, 100);
-        for (int x = 0; x < quantidadeDeAtaques; x++)
-        {
-            yield return new WaitForSeconds(TempoAntesSpawn);             
-            if (o <= 30)            
-            {               
-                anim.Play("ATKPlayer3", 0);
-                GameObject ob = Instantiate(prefabAtack1, arma.transform.position, arma.transform.rotation);
-            }           
-            if (o > 30 && o <= 60)            
-            {            
-                anim.Play("ATKPlayer1", 0);
-
-                GameObject ob = Instantiate(prefabAtack2, arma.transform.position, arma.transform.rotation);
-            }           
-            if (o > 60)            
-            {           
-                anim.Play("ATKPlayer2", 0);
-                GameObject ob = Instantiate(prefabAtack3, arma.transform.position, arma.transform.rotation);
-            }
-           
-            yield return new WaitForSeconds(0.3f);
-            
-        }
-        yield return new WaitForSeconds(0.1f);
-        AtackMelleTempo = AtackMelleCD;
-        atacklivre = false;
     }
 }

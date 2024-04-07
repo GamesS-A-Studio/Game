@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	39388509	Play_JumpPlayer			\Default Work Unit\Play_JumpPlayer	
+	322431801	Play_WallSlide			\Default Work Unit\Play_WallSlide	
+	2211787386	Play_Dash			\Default Work Unit\Play_Dash	
+	2582838277	Play_JumpLand			\Default Work Unit\Play_JumpLand	
+	2807572219	Play_Silence			\Default Work Unit\Play_Silence	
+	3098595213	Play_AttackSlash			\Default Work Unit\Play_AttackSlash	
+	3287692282	Play_JumpWall			\Default Work Unit\Play_JumpWall	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	299877645	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Silence\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	128214374	SFXJumpPlayer	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXJumpPlayer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Jump\SFXJumpPlayer		92704
+	146992398	SFXFootstepGravelPlayer01	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXFootstepGravelPlayer01_AD307EA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\SFXFootstepGravelPlayer01		34972
+	349722822	SFXAttackSlashPlayer01	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXAttackSlashPlayer01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attacks\Slash\SFXAttackSlashPlayer01		45924
+	667420433	SFXJumpLandPlayer	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXJumpLandPlayer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Land\SFXJumpLandPlayer		105936
+	681874434	SFXDashPlayer	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXDashPlayer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\SFXDashPlayer		79476
+	713772065	SFXJumpWallPlayer	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXJumpWallPlayer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Wall Jump\SFXJumpWallPlayer		105936
+	831416650	SFXJumpWallSlidePlayer	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXJumpWallSlidePlayer_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Wall Jump\SFXJumpWallSlidePlayer		105936
+	876197383	SFXJumpWallHitPlayer	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXJumpWallHitPlayer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Wall Jump\SFXJumpWallHitPlayer		105936
+	1036151235	SFXFootstepGravelPlayer02	Y:\ZEDEKI\Metroidvania Game\Metroidvania Game trial\.cache\Mac\SFX\SFXFootstepGravelPlayer02_0BE30230.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\SFXFootstepGravelPlayer02		36668
+
