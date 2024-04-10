@@ -8,6 +8,7 @@ TagManager:
   - Inimigo
   - AtackPlayer
   - Chao
+  - Box
   layers:
   - Default
   - TransparentFX

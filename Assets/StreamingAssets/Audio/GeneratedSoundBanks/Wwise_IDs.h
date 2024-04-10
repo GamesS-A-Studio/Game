@@ -17,11 +17,13 @@ namespace AK
         static const AkUniqueID PLAY_DASH = 2211787386U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_FOOTSTEPSSTEALTH = 2223068900U;
+        static const AkUniqueID PLAY_HITBOX = 3118584040U;
         static const AkUniqueID PLAY_JUMPLAND = 2582838277U;
         static const AkUniqueID PLAY_JUMPPLAYER = 39388509U;
         static const AkUniqueID PLAY_JUMPWALL = 3287692282U;
         static const AkUniqueID PLAY_SILENCE = 2807572219U;
         static const AkUniqueID PLAY_WALLSLIDE = 322431801U;
+        static const AkUniqueID STOP_WALLSLIDE = 2189370507U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
